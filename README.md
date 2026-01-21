@@ -1,6 +1,10 @@
 # OrderManagementTool
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is done using Vue 3, Vite, Bun as a runtime, Tailwind CSS, Go Lang for Backend and MySQL as a DB.
+
+I made this to practice Vue 3 with Bun and also to learn Go Lang. It's an application where I see call centre agents using to assist customers that are phoning in to report issues with their groceries order or want to place a new order.
+
+This has been on my mind as a project even before I had any programming ability and was only a call centre agent in 2018. The software that the agents were using, even though it was with an outdated UI, worked really well.
 
 ## Recommended IDE Setup
 
