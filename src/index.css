@@ -1,2 +1,4 @@
-/* ./src/index.css */
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: bumblebee;
+}
