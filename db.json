@@ -1,3 +1,5148 @@
 {
+  "customers": [
+    {
+      "id": 1,
+      "name": "Rose Strosin-Corwin",
+      "address": {
+        "postCode": "16446",
+        "city": "North Alphonso",
+        "street": "704 Monahan Expressway"
+      },
+      "customerNumber": "OO3O3QHO",
+      "email": "Donny.Balistreri46@yahoo.com",
+      "telNumber": "228-428-4143 x9421",
+      "orders": [
+        31,
+        34,
+        49
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tasha Swift-Paucek",
+      "address": {
+        "postCode": "40661",
+        "city": "Fort Jamirport",
+        "street": "92273 Schuster Wall"
+      },
+      "customerNumber": "WLENGPXY",
+      "email": "Dayana.Shields@gmail.com",
+      "telNumber": "1-899-964-9710 x2016",
+      "orders": []
+    },
+    {
+      "id": 3,
+      "name": "Dr. Ray Kiehn",
+      "address": {
+        "postCode": "37100-8014",
+        "city": "Ruthetown",
+        "street": "8662 Reilly Spring"
+      },
+      "customerNumber": "EM2FEBB7",
+      "email": "Keshaun.Kohler79@yahoo.com",
+      "telNumber": "1-968-858-7997 x96013",
+      "orders": [
+        14,
+        17
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mr. Christopher Skiles",
+      "address": {
+        "postCode": "90345",
+        "city": "Port Cecile",
+        "street": "4194 Alexandro Pine"
+      },
+      "customerNumber": "WQRIPXOR",
+      "email": "Walter_Weimann81@gmail.com",
+      "telNumber": "1-267-514-8807 x369",
+      "orders": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Penny Reinger",
+      "address": {
+        "postCode": "40367",
+        "city": "Yorba Linda",
+        "street": "90124 Eldon Loaf"
+      },
+      "customerNumber": "TCHI0WJK",
+      "email": "Estrella58@yahoo.com",
+      "telNumber": "530-825-9653",
+      "orders": []
+    },
+    {
+      "id": 6,
+      "name": "Sheila Koch",
+      "address": {
+        "postCode": "82204-0981",
+        "city": "West Rebekahboro",
+        "street": "7519 Buckingham Road"
+      },
+      "customerNumber": "9EQUHNKC",
+      "email": "Zora93@hotmail.com",
+      "telNumber": "1-299-540-5587 x569",
+      "orders": [
+        12
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Byron Botsford",
+      "address": {
+        "postCode": "97543-0169",
+        "city": "Kertzmannbury",
+        "street": "674 Osborne Well"
+      },
+      "customerNumber": "FFP4E7RW",
+      "email": "Abelardo_Smitham@gmail.com",
+      "telNumber": "773.997.4322 x25775",
+      "orders": [
+        25,
+        40
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Regina Mitchell",
+      "address": {
+        "postCode": "14501",
+        "city": "Kovacektown",
+        "street": "93081 Darby Union"
+      },
+      "customerNumber": "FBNQ6S46",
+      "email": "Giovanny_Stanton@yahoo.com",
+      "telNumber": "756-616-7184",
+      "orders": [
+        6,
+        13
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Jessica Aufderhar DDS",
+      "address": {
+        "postCode": "25485-0566",
+        "city": "Tremayneville",
+        "street": "6145 Franklin Avenue"
+      },
+      "customerNumber": "NERABJYB",
+      "email": "Gordon4@hotmail.com",
+      "telNumber": "(639) 273-6702 x1524",
+      "orders": [
+        5,
+        44
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Gustavo Mueller DDS",
+      "address": {
+        "postCode": "06532-2698",
+        "city": "Faheyville",
+        "street": "968 Poplar Road"
+      },
+      "customerNumber": "8XG6OZKG",
+      "email": "Destini_Windler73@yahoo.com",
+      "telNumber": "(575) 709-1527 x8260",
+      "orders": []
+    },
+    {
+      "id": 11,
+      "name": "Ken Swaniawski",
+      "address": {
+        "postCode": "43325",
+        "city": "Fort Groverfort",
+        "street": "57399 Hilpert Club"
+      },
+      "customerNumber": "J5TNC1N0",
+      "email": "Juwan_Huel67@gmail.com",
+      "telNumber": "703-879-1711 x7711",
+      "orders": [
+        24,
+        45
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Chelsea Anderson",
+      "address": {
+        "postCode": "02869-7611",
+        "city": "Fort Oswaldo",
+        "street": "95411 Kunde Lodge"
+      },
+      "customerNumber": "XWQDBYMA",
+      "email": "Amely.Rohan@hotmail.com",
+      "telNumber": "(482) 890-2749",
+      "orders": [
+        27
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Eleanor Schmeler",
+      "address": {
+        "postCode": "44757",
+        "city": "Fort Shaneborough",
+        "street": "783 Erdman Keys"
+      },
+      "customerNumber": "4DPEFSRY",
+      "email": "Bridie38@hotmail.com",
+      "telNumber": "213.749.6478",
+      "orders": []
+    },
+    {
+      "id": 14,
+      "name": "Matt Blick",
+      "address": {
+        "postCode": "46727",
+        "city": "Simi Valley",
+        "street": "1357 Kirlin Coves"
+      },
+      "customerNumber": "EXLNRCF8",
+      "email": "Anderson93@hotmail.com",
+      "telNumber": "290.207.3304",
+      "orders": []
+    },
+    {
+      "id": 15,
+      "name": "Tricia Ledner",
+      "address": {
+        "postCode": "57978",
+        "city": "Ferrychester",
+        "street": "612 Quinten Crescent"
+      },
+      "customerNumber": "EBUK4JWI",
+      "email": "Brandyn_Kohler80@yahoo.com",
+      "telNumber": "1-396-906-9386",
+      "orders": [
+        23
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Mr. Vincent Lueilwitz I",
+      "address": {
+        "postCode": "54093",
+        "city": "Port Olga",
+        "street": "65188 E Broadway"
+      },
+      "customerNumber": "GME8WQG4",
+      "email": "Soledad93@yahoo.com",
+      "telNumber": "450.461.7216 x554",
+      "orders": [
+        15
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Lynn Greenholt",
+      "address": {
+        "postCode": "56518",
+        "city": "Wilson",
+        "street": "929 Roob Forest"
+      },
+      "customerNumber": "DABPUOEE",
+      "email": "Foster_Gerlach@hotmail.com",
+      "telNumber": "1-378-406-3423 x107",
+      "orders": []
+    },
+    {
+      "id": 18,
+      "name": "Misty Funk",
+      "address": {
+        "postCode": "54209",
+        "city": "Eagan",
+        "street": "33102 State Road"
+      },
+      "customerNumber": "KGYLNCXZ",
+      "email": "Freeda.McDermott@yahoo.com",
+      "telNumber": "565-942-9899 x73065",
+      "orders": [
+        11,
+        18
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Cedric Hayes",
+      "address": {
+        "postCode": "08648",
+        "city": "Nikolasborough",
+        "street": "10592 Renee Garden"
+      },
+      "customerNumber": "V7GY3FYA",
+      "email": "Rebecca_Weissnat@gmail.com",
+      "telNumber": "(513) 677-5828 x24310",
+      "orders": [
+        36
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Dr. Andrea Kohler",
+      "address": {
+        "postCode": "96735-1543",
+        "city": "Kaileeshire",
+        "street": "40720 Corbin Place"
+      },
+      "customerNumber": "0RGUE9OY",
+      "email": "Mayra72@hotmail.com",
+      "telNumber": "377-577-5740 x7374",
+      "orders": []
+    },
+    {
+      "id": 21,
+      "name": "Mack Boehm",
+      "address": {
+        "postCode": "24704",
+        "city": "Port Hank",
+        "street": "91179 Mertz View"
+      },
+      "customerNumber": "AXMRANTE",
+      "email": "Dedric74@gmail.com",
+      "telNumber": "(908) 292-4329 x56647",
+      "orders": []
+    },
+    {
+      "id": 22,
+      "name": "Sheryl Goyette",
+      "address": {
+        "postCode": "30458-7127",
+        "city": "Schultzchester",
+        "street": "1691 Runolfsson Highway"
+      },
+      "customerNumber": "VIVOUZQU",
+      "email": "Kailey93@hotmail.com",
+      "telNumber": "398.768.0278 x5265",
+      "orders": [
+        38
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Janie Wilderman",
+      "address": {
+        "postCode": "51848-6776",
+        "city": "Idellborough",
+        "street": "7767 Derwent Close"
+      },
+      "customerNumber": "XZRUIPSF",
+      "email": "Citlalli_Konopelski@yahoo.com",
+      "telNumber": "1-673-700-3378 x67217",
+      "orders": []
+    },
+    {
+      "id": 24,
+      "name": "Benjamin Reynolds",
+      "address": {
+        "postCode": "27635-2561",
+        "city": "New Augustastad",
+        "street": "973 N College Street"
+      },
+      "customerNumber": "BKNFEJSC",
+      "email": "Allene66@gmail.com",
+      "telNumber": "(717) 868-5037 x6205",
+      "orders": [
+        8
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Genevieve Lueilwitz",
+      "address": {
+        "postCode": "01443-4086",
+        "city": "South Idellcester",
+        "street": "4348 N Market Street"
+      },
+      "customerNumber": "JBFMJ2XL",
+      "email": "Alexandria84@gmail.com",
+      "telNumber": "309.416.9143",
+      "orders": []
+    },
+    {
+      "id": 26,
+      "name": "Sandy Mann",
+      "address": {
+        "postCode": "47134",
+        "city": "East Aftonborough",
+        "street": "86220 Hammes Alley"
+      },
+      "customerNumber": "HHWQ4XCY",
+      "email": "Johanna82@hotmail.com",
+      "telNumber": "(747) 957-2538",
+      "orders": []
+    },
+    {
+      "id": 27,
+      "name": "Charlie Cruickshank",
+      "address": {
+        "postCode": "97223",
+        "city": "Port Eula",
+        "street": "7382 Railroad Avenue"
+      },
+      "customerNumber": "WQLPONLT",
+      "email": "Danielle_Tillman97@hotmail.com",
+      "telNumber": "455.321.3108 x090",
+      "orders": [
+        26,
+        43
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Lance Cole",
+      "address": {
+        "postCode": "81379-2071",
+        "city": "D'Amorestead",
+        "street": "70931 Kareem Burg"
+      },
+      "customerNumber": "QGOFFBS8",
+      "email": "Margarete_Huels@hotmail.com",
+      "telNumber": "609.917.2079",
+      "orders": [
+        35
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Luther Leuschke",
+      "address": {
+        "postCode": "10897",
+        "city": "Cleoville",
+        "street": "5000 Hodkiewicz Valley"
+      },
+      "customerNumber": "QRVNZLXA",
+      "email": "Audie_Glover84@hotmail.com",
+      "telNumber": "768.716.1443 x2611",
+      "orders": [
+        1,
+        37,
+        47
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Margarita Hayes-Yost",
+      "address": {
+        "postCode": "79058-7716",
+        "city": "North Brenna",
+        "street": "66188 Gleichner Trafficway"
+      },
+      "customerNumber": "NKYRIOFA",
+      "email": "Jermey_Ratke@yahoo.com",
+      "telNumber": "(598) 610-2523 x7998",
+      "orders": [
+        20
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Neil Nader",
+      "address": {
+        "postCode": "07466-3863",
+        "city": "Boganborough",
+        "street": "23253 Gage Prairie"
+      },
+      "customerNumber": "FMZ7RODC",
+      "email": "Aletha.Bahringer62@gmail.com",
+      "telNumber": "1-370-490-3299",
+      "orders": [
+        16,
+        30
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Luther Barrows",
+      "address": {
+        "postCode": "97785",
+        "city": "West Lora",
+        "street": "850 Fritsch Square"
+      },
+      "customerNumber": "NVYSIDPT",
+      "email": "Kareem_Toy@gmail.com",
+      "telNumber": "(256) 627-9212 x3457",
+      "orders": []
+    },
+    {
+      "id": 33,
+      "name": "Ashley Kautzer",
+      "address": {
+        "postCode": "26208-1156",
+        "city": "Ryanburgh",
+        "street": "228 Johnson Street"
+      },
+      "customerNumber": "7KNPYD3V",
+      "email": "Alize36@yahoo.com",
+      "telNumber": "556.313.5997 x2855",
+      "orders": [
+        10,
+        32,
+        46
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Kim Schaden",
+      "address": {
+        "postCode": "80456",
+        "city": "Laguna Niguel",
+        "street": "39766 First Street"
+      },
+      "customerNumber": "FYPRXXUG",
+      "email": "Winnifred_Ratke97@hotmail.com",
+      "telNumber": "447-353-8902 x19839",
+      "orders": [
+        39
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Mindy Ruecker",
+      "address": {
+        "postCode": "90918-3859",
+        "city": "Romagueraton",
+        "street": "38611 Roselyn Greens"
+      },
+      "customerNumber": "PLZ4CNVI",
+      "email": "Eladio_Keebler@gmail.com",
+      "telNumber": "(796) 498-3034 x72564",
+      "orders": [
+        48
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Dixie Schimmel-Kemmer DVM",
+      "address": {
+        "postCode": "92128-3983",
+        "city": "West Jamilborough",
+        "street": "86700 Alfred Street"
+      },
+      "customerNumber": "Q6JOD15V",
+      "email": "Carissa_Pollich@yahoo.com",
+      "telNumber": "471.977.4686",
+      "orders": [
+        29,
+        42
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Kelly Stracke",
+      "address": {
+        "postCode": "88396",
+        "city": "Fort Pattiechester",
+        "street": "22459 Victoria Place"
+      },
+      "customerNumber": "W6GQI5K6",
+      "email": "Cale.Cartwright20@yahoo.com",
+      "telNumber": "1-734-213-1316 x412",
+      "orders": [
+        3
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Mable Klein-Schmitt",
+      "address": {
+        "postCode": "86241-9263",
+        "city": "West Fabian",
+        "street": "9973 Homenick Route"
+      },
+      "customerNumber": "BNHJXKH1",
+      "email": "Amelie_Bahringer@yahoo.com",
+      "telNumber": "1-340-406-2514 x3426",
+      "orders": [
+        33
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Joshua Hansen",
+      "address": {
+        "postCode": "54891-1641",
+        "city": "South Bell",
+        "street": "918 6th Street"
+      },
+      "customerNumber": "I5ZYT15X",
+      "email": "Vickie.Daugherty@hotmail.com",
+      "telNumber": "(469) 207-1304 x676",
+      "orders": [
+        41
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Ms. Darlene Heller PhD",
+      "address": {
+        "postCode": "02232-0501",
+        "city": "Appleton",
+        "street": "77106 Gibson Expressway"
+      },
+      "customerNumber": "TSOFNLP2",
+      "email": "Malika_Hartmann@yahoo.com",
+      "telNumber": "729.605.3316 x74899",
+      "orders": [
+        4,
+        7
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Josefina McDermott",
+      "address": {
+        "postCode": "86547-9821",
+        "city": "McLaughlinfield",
+        "street": "39553 Murray Fort"
+      },
+      "customerNumber": "TC8V7IAC",
+      "email": "Alice.Bashirian@hotmail.com",
+      "telNumber": "1-963-510-1105 x096",
+      "orders": [
+        21
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Jessie Bartell",
+      "address": {
+        "postCode": "74178",
+        "city": "Hassanburgh",
+        "street": "917 Frances Hill"
+      },
+      "customerNumber": "QJS6WKBM",
+      "email": "Shana_Feeney46@yahoo.com",
+      "telNumber": "857.297.6482 x74825",
+      "orders": [
+        22
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Laura Ratke",
+      "address": {
+        "postCode": "63392",
+        "city": "Abernathyport",
+        "street": "5444 Runte Villages"
+      },
+      "customerNumber": "9JVIDDGF",
+      "email": "Cora94@hotmail.com",
+      "telNumber": "762-890-4116 x4093",
+      "orders": []
+    },
+    {
+      "id": 44,
+      "name": "Carol Gleason",
+      "address": {
+        "postCode": "48735-6158",
+        "city": "Ceres",
+        "street": "886 King Cliff"
+      },
+      "customerNumber": "GDGZZCY3",
+      "email": "Madelynn_Lang3@gmail.com",
+      "telNumber": "1-286-265-4126 x307",
+      "orders": [
+        19,
+        28
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Loretta Kertzmann",
+      "address": {
+        "postCode": "88960",
+        "city": "Schambergertown",
+        "street": "877 Hettinger Drive"
+      },
+      "customerNumber": "PDM1LJHJ",
+      "email": "Estrella.Berge@hotmail.com",
+      "telNumber": "(477) 872-4967 x910",
+      "orders": []
+    },
+    {
+      "id": 46,
+      "name": "Jacob Windler",
+      "address": {
+        "postCode": "64343",
+        "city": "Priscillaburgh",
+        "street": "3816 Virgie Knolls"
+      },
+      "customerNumber": "YOMJ0BVJ",
+      "email": "Meredith_Pacocha15@yahoo.com",
+      "telNumber": "884-271-2572",
+      "orders": []
+    },
+    {
+      "id": 47,
+      "name": "Miss Rhonda Gislason",
+      "address": {
+        "postCode": "36860-4670",
+        "city": "Lake Dewitt",
+        "street": "719 N 3rd Street"
+      },
+      "customerNumber": "RJ57G74D",
+      "email": "Heath_Dickinson97@yahoo.com",
+      "telNumber": "1-414-917-7607 x34365",
+      "orders": []
+    },
+    {
+      "id": 48,
+      "name": "Wilfred Reichel",
+      "address": {
+        "postCode": "30192",
+        "city": "Temple",
+        "street": "5042 Gutmann Mountain"
+      },
+      "customerNumber": "DQBDRJIP",
+      "email": "Trinity.Thompson16@hotmail.com",
+      "telNumber": "274-801-9779 x5526",
+      "orders": [
+        50
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Marshall Hackett",
+      "address": {
+        "postCode": "90999",
+        "city": "New Braunfels",
+        "street": "9351 W 9th Street"
+      },
+      "customerNumber": "LRJWLSUH",
+      "email": "Ludwig.Leuschke93@yahoo.com",
+      "telNumber": "1-412-587-9396 x75280",
+      "orders": [
+        9
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Kathy Schuppe",
+      "address": {
+        "postCode": "19473",
+        "city": "New Theron",
+        "street": "108 Myrtle Hill"
+      },
+      "customerNumber": "LBFEBQE0",
+      "email": "Sonny28@gmail.com",
+      "telNumber": "(616) 361-8767 x75438",
+      "orders": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_uid": "037798bf-7380-4791-b0eb-9e00dcbaee6c",
+      "favourite_uid": null,
+      "eans": [
+        "8084543116913"
+      ],
+      "product_type": "BASIC",
+      "name": "Elegant Bronze Mouse",
+      "image": "https://picsum.photos/seed/v2JEq0/302/3416",
+      "unit_price": {
+        "price": 33.818002711133616,
+        "measure": "kg",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 40.581603253360335,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product_uid": "ed960cf0-80ea-4e6d-b69c-02dd56058be8",
+      "favourite_uid": null,
+      "eans": [
+        "2145150342219"
+      ],
+      "product_type": "BASIC",
+      "name": "Gorgeous Concrete Shoes",
+      "image": "https://picsum.photos/seed/PveguaLWp/3971/2294",
+      "unit_price": {
+        "price": 89.67114842505026,
+        "measure": "kg",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 107.60537811006031,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "product_uid": "42a7a914-dff6-4bd8-9139-f8af889c2d4d",
+      "favourite_uid": null,
+      "eans": [
+        "3419009256013"
+      ],
+      "product_type": "BASIC",
+      "name": "Modern Gold Computer",
+      "image": "https://picsum.photos/seed/pq4exJe/3321/1244",
+      "unit_price": {
+        "price": 48.69248639009377,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 58.43098366811252,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "product_uid": "9d871f27-ffe8-45a0-9dca-8add9b29c6c5",
+      "favourite_uid": null,
+      "eans": [
+        "7929763033429"
+      ],
+      "product_type": "BASIC",
+      "name": "Electronic Marble Chair",
+      "image": "https://picsum.photos/seed/S7PNdyk/3933/3719",
+      "unit_price": {
+        "price": 73.58670161266339,
+        "measure": "l",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 88.30404193519607,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "product_uid": "8fba2f2f-0716-4eff-95e7-b6806eff0e2c",
+      "favourite_uid": null,
+      "eans": [
+        "2895696199935"
+      ],
+      "product_type": "BASIC",
+      "name": "Incredible Metal Salad",
+      "image": "https://picsum.photos/seed/8ezRttrhoA/1438/35",
+      "unit_price": {
+        "price": 64.82754069657747,
+        "measure": "l",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 77.79304883589296,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "product_uid": "17955749-3d1c-41a0-96cc-7eddd74bd935",
+      "favourite_uid": null,
+      "eans": [
+        "1658782947596"
+      ],
+      "product_type": "BASIC",
+      "name": "Generic Rubber Ball",
+      "image": "https://picsum.photos/seed/eZ2M5ybQ5/1748/1559",
+      "unit_price": {
+        "price": 17.907816412792045,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 21.489379695350454,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "product_uid": "d7d2d48b-87b5-4341-89b1-8069bbe150df",
+      "favourite_uid": null,
+      "eans": [
+        "6881172075385"
+      ],
+      "product_type": "BASIC",
+      "name": "Recycled Rubber Hat",
+      "image": "https://picsum.photos/seed/6E7lxq5JR/156/2513",
+      "unit_price": {
+        "price": 83.17687328729785,
+        "measure": "l",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 99.81224794475742,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "product_uid": "0812e2e2-b88d-49a1-b96c-d12e418fce48",
+      "favourite_uid": null,
+      "eans": [
+        "6326982793395"
+      ],
+      "product_type": "BASIC",
+      "name": "Incredible Steel Ball",
+      "image": "https://picsum.photos/seed/cNXbS2sns/280/3480",
+      "unit_price": {
+        "price": 11.949207698318599,
+        "measure": "kg",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 14.339049237982318,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "product_uid": "0ec47468-180f-4ac1-8114-3fe08daa49e8",
+      "favourite_uid": null,
+      "eans": [
+        "5197124783056"
+      ],
+      "product_type": "BASIC",
+      "name": "Fantastic Bamboo Pizza",
+      "image": "https://picsum.photos/seed/GZH8DmXJZ/1443/2133",
+      "unit_price": {
+        "price": 42.10969039466076,
+        "measure": "pack",
+        "measure_amount": 6
+      },
+      "retail_price": {
+        "price": 50.53162847359291,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "product_uid": "42553317-468a-4af0-8956-173745bb1ece",
+      "favourite_uid": null,
+      "eans": [
+        "8226787057017"
+      ],
+      "product_type": "BASIC",
+      "name": "Ergonomic Ceramic Chips",
+      "image": "https://picsum.photos/seed/KDS3O/3245/3979",
+      "unit_price": {
+        "price": 19.584787745378225,
+        "measure": "pack",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 23.50174529445387,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "product_uid": "9ca72f69-e429-4dbb-9e0a-d53e9f5baaf7",
+      "favourite_uid": null,
+      "eans": [
+        "5437335312573"
+      ],
+      "product_type": "BASIC",
+      "name": "Modern Concrete Bacon",
+      "image": "https://picsum.photos/seed/VI9t1IpjBC/2823/1588",
+      "unit_price": {
+        "price": 65.22296560729725,
+        "measure": "l",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 78.2675587287567,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "product_uid": "2bc75365-3061-4c76-9706-9bcdc432b286",
+      "favourite_uid": null,
+      "eans": [
+        "1350580341638"
+      ],
+      "product_type": "BASIC",
+      "name": "Ergonomic Bronze Bike",
+      "image": "https://picsum.photos/seed/hYEV25/3852/2532",
+      "unit_price": {
+        "price": 14.695010029146037,
+        "measure": "pack",
+        "measure_amount": 6
+      },
+      "retail_price": {
+        "price": 17.634012034975242,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "product_uid": "d9895870-36d2-48e3-a0a5-9f708bbc7ab9",
+      "favourite_uid": null,
+      "eans": [
+        "3927800950211"
+      ],
+      "product_type": "BASIC",
+      "name": "Elegant Concrete Computer",
+      "image": "https://picsum.photos/seed/b5dEhnc/2164/1387",
+      "unit_price": {
+        "price": 21.175534690504705,
+        "measure": "kg",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 25.410641628605646,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "product_uid": "4eb54a11-636d-44b6-998a-2c28d5b9c684",
+      "favourite_uid": null,
+      "eans": [
+        "7133263737017"
+      ],
+      "product_type": "BASIC",
+      "name": "Rustic Bamboo Chicken",
+      "image": "https://picsum.photos/seed/jxIYSD/1138/83",
+      "unit_price": {
+        "price": 86.91894498033055,
+        "measure": "kg",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 104.30273397639665,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "product_uid": "d5566fbe-33e4-4392-ad14-1363d37a3d19",
+      "favourite_uid": null,
+      "eans": [
+        "2874963997655"
+      ],
+      "product_type": "BASIC",
+      "name": "Frozen Bamboo Salad",
+      "image": "https://picsum.photos/seed/p6kBJ/3395/42",
+      "unit_price": {
+        "price": 14.362199039081842,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 17.23463884689821,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "product_uid": "ee1e647e-9fec-40f1-936d-ea18eb6c0fd2",
+      "favourite_uid": null,
+      "eans": [
+        "7841874222965"
+      ],
+      "product_type": "BASIC",
+      "name": "Practical Metal Shoes",
+      "image": "https://picsum.photos/seed/0lfAw9/211/287",
+      "unit_price": {
+        "price": 46.6466358279833,
+        "measure": "l",
+        "measure_amount": 6
+      },
+      "retail_price": {
+        "price": 55.97596299357996,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "product_uid": "3ca9799d-ab1f-41ba-bac3-22d5b4677c97",
+      "favourite_uid": null,
+      "eans": [
+        "6464886793157"
+      ],
+      "product_type": "BASIC",
+      "name": "Recycled Plastic Chicken",
+      "image": "https://picsum.photos/seed/rpxQhiipiO/3966/611",
+      "unit_price": {
+        "price": 63.14964452863655,
+        "measure": "kg",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 75.77957343436385,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "product_uid": "9506312b-59ea-4b00-bc47-c2b2d688cf41",
+      "favourite_uid": null,
+      "eans": [
+        "0145469756260"
+      ],
+      "product_type": "BASIC",
+      "name": "Handcrafted Granite Sausages",
+      "image": "https://picsum.photos/seed/uMhFh7Kb/1316/3379",
+      "unit_price": {
+        "price": 76.49341549069611,
+        "measure": "pack",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 91.79209858883533,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "product_uid": "3920391c-7920-48e5-aaab-b6cedb8fff9f",
+      "favourite_uid": null,
+      "eans": [
+        "9036337416676"
+      ],
+      "product_type": "BASIC",
+      "name": "Gorgeous Silk Chicken",
+      "image": "https://picsum.photos/seed/8X13b5B/2981/1562",
+      "unit_price": {
+        "price": 10.230608391933476,
+        "measure": "pack",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 12.276730070320172,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "product_uid": "bd63faec-faa2-4f98-ab83-1478883816e5",
+      "favourite_uid": null,
+      "eans": [
+        "6266033092343"
+      ],
+      "product_type": "BASIC",
+      "name": "Sleek Granite Car",
+      "image": "https://picsum.photos/seed/hWlFSfp0/3394/3637",
+      "unit_price": {
+        "price": 43.69798110235898,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 52.437577322830776,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "product_uid": "e0d12565-f669-41c7-841e-6b308aa5cbbc",
+      "favourite_uid": null,
+      "eans": [
+        "5992973849489"
+      ],
+      "product_type": "BASIC",
+      "name": "Refined Gold Shirt",
+      "image": "https://picsum.photos/seed/bMQ9XE/1303/3348",
+      "unit_price": {
+        "price": 74.60958435292108,
+        "measure": "l",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 89.53150122350529,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "product_uid": "e247c8a8-1cea-42e4-b224-eefc334de2ca",
+      "favourite_uid": null,
+      "eans": [
+        "1993437760575"
+      ],
+      "product_type": "BASIC",
+      "name": "Gorgeous Steel Tuna",
+      "image": "https://picsum.photos/seed/0PrB1ahJ/2485/1742",
+      "unit_price": {
+        "price": 61.871645962111685,
+        "measure": "kg",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 74.24597515453402,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "product_uid": "27363712-f586-4c30-9555-80fd7e1af067",
+      "favourite_uid": null,
+      "eans": [
+        "0655768019355"
+      ],
+      "product_type": "BASIC",
+      "name": "Licensed Bamboo Bike",
+      "image": "https://picsum.photos/seed/Ypkq1zS/2427/2061",
+      "unit_price": {
+        "price": 54.379658121426765,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 65.25558974571211,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "product_uid": "4ec92319-8487-424e-8fd3-b623a7e9b2a0",
+      "favourite_uid": null,
+      "eans": [
+        "3757180189302"
+      ],
+      "product_type": "BASIC",
+      "name": "Generic Gold Bacon",
+      "image": "https://picsum.photos/seed/o8xOIg9/960/1776",
+      "unit_price": {
+        "price": 78.79981436855937,
+        "measure": "kg",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 94.55977724227124,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "product_uid": "288729be-4cb2-4fb0-85bd-bef2cf068011",
+      "favourite_uid": null,
+      "eans": [
+        "4794260875856"
+      ],
+      "product_type": "BASIC",
+      "name": "Elegant Wooden Pizza",
+      "image": "https://picsum.photos/seed/QHrfJ/2265/3686",
+      "unit_price": {
+        "price": 73.86530220334342,
+        "measure": "pack",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 88.6383626440121,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "product_uid": "87a64779-3ba0-490a-97de-9a6549ee23be",
+      "favourite_uid": null,
+      "eans": [
+        "0841345704606"
+      ],
+      "product_type": "BASIC",
+      "name": "Unbranded Granite Soap",
+      "image": "https://picsum.photos/seed/lyNlXrBQ/2637/3228",
+      "unit_price": {
+        "price": 52.788931536664656,
+        "measure": "kg",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 63.34671784399758,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "product_uid": "c0ad3878-5340-4c65-a69d-9bb5fe15919a",
+      "favourite_uid": null,
+      "eans": [
+        "8092483665062"
+      ],
+      "product_type": "BASIC",
+      "name": "Modern Metal Fish",
+      "image": "https://picsum.photos/seed/7bSSfMB5/725/3729",
+      "unit_price": {
+        "price": 98.21241153065844,
+        "measure": "pack",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 117.85489383679013,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "product_uid": "6078dfcd-19e4-4bf1-b7e5-7c719a3fdbe5",
+      "favourite_uid": null,
+      "eans": [
+        "1545815630577"
+      ],
+      "product_type": "BASIC",
+      "name": "Small Gold Table",
+      "image": "https://picsum.photos/seed/qtjnfixDvD/754/59",
+      "unit_price": {
+        "price": 61.42519605568001,
+        "measure": "kg",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 73.71023526681601,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "product_uid": "d7272cc4-7181-4d5b-a08f-649b3fad8f0f",
+      "favourite_uid": null,
+      "eans": [
+        "5333279163310"
+      ],
+      "product_type": "BASIC",
+      "name": "Elegant Aluminum Table",
+      "image": "https://picsum.photos/seed/ttybp/1187/964",
+      "unit_price": {
+        "price": 67.86716517924003,
+        "measure": "l",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 81.44059821508803,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "product_uid": "ad129fcf-2ff9-4dde-b160-46b575d392f1",
+      "favourite_uid": null,
+      "eans": [
+        "5082643685918"
+      ],
+      "product_type": "BASIC",
+      "name": "Licensed Steel Tuna",
+      "image": "https://picsum.photos/seed/xZjUa/2498/270",
+      "unit_price": {
+        "price": 43.3524163545974,
+        "measure": "l",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 52.02289962551688,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "product_uid": "a5aec511-0261-4871-a62f-a8777cb00a30",
+      "favourite_uid": null,
+      "eans": [
+        "8101224847338"
+      ],
+      "product_type": "BASIC",
+      "name": "Sleek Aluminum Shoes",
+      "image": "https://picsum.photos/seed/yyWTynqX/2434/2053",
+      "unit_price": {
+        "price": 32.23008848681534,
+        "measure": "pack",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 38.67610618417841,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "product_uid": "8829105c-5dca-414c-ba77-f3219ca7da63",
+      "favourite_uid": null,
+      "eans": [
+        "1328095612851"
+      ],
+      "product_type": "BASIC",
+      "name": "Electronic Cotton Sausages",
+      "image": "https://picsum.photos/seed/9KO0gBmkv1/3502/2886",
+      "unit_price": {
+        "price": 34.8268456876761,
+        "measure": "l",
+        "measure_amount": 2
+      },
+      "retail_price": {
+        "price": 41.79221482521132,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "product_uid": "ff700cb4-bb8b-4ba7-b920-7c6deecf49cd",
+      "favourite_uid": null,
+      "eans": [
+        "7093874649001"
+      ],
+      "product_type": "BASIC",
+      "name": "Recycled Steel Fish",
+      "image": "https://picsum.photos/seed/Bky3T/2327/3016",
+      "unit_price": {
+        "price": 63.61962881944107,
+        "measure": "l",
+        "measure_amount": 2
+      },
+      "retail_price": {
+        "price": 76.34355458332928,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "product_uid": "21ec0d1f-4bd8-439d-a4b5-d6bebbd1b632",
+      "favourite_uid": null,
+      "eans": [
+        "6513681910236"
+      ],
+      "product_type": "BASIC",
+      "name": "Handcrafted Ceramic Ball",
+      "image": "https://picsum.photos/seed/6HkLe/2740/1767",
+      "unit_price": {
+        "price": 14.80705562571237,
+        "measure": "kg",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 17.768466750854845,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "product_uid": "104bb836-a585-496e-bebd-ee9be12bb981",
+      "favourite_uid": null,
+      "eans": [
+        "5865416812257"
+      ],
+      "product_type": "BASIC",
+      "name": "Rustic Granite Chips",
+      "image": "https://picsum.photos/seed/lH2SS6/2684/2588",
+      "unit_price": {
+        "price": 75.12742087452438,
+        "measure": "pack",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 90.15290504942925,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "product_uid": "0bb232c3-a0ba-4643-b4eb-bedd27ae56c9",
+      "favourite_uid": null,
+      "eans": [
+        "2606813992654"
+      ],
+      "product_type": "BASIC",
+      "name": "Recycled Aluminum Cheese",
+      "image": "https://picsum.photos/seed/qEFywIFaeI/771/3345",
+      "unit_price": {
+        "price": 61.32633522246274,
+        "measure": "pack",
+        "measure_amount": 2
+      },
+      "retail_price": {
+        "price": 73.59160226695528,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "product_uid": "07ca0371-1d0a-43f1-9a60-bba903a4b4af",
+      "favourite_uid": null,
+      "eans": [
+        "1292294406904"
+      ],
+      "product_type": "BASIC",
+      "name": "Luxurious Plastic Chicken",
+      "image": "https://picsum.photos/seed/qlHdqlrE5C/480/1705",
+      "unit_price": {
+        "price": 42.4430536852143,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 50.931664422257164,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "product_uid": "c7779559-fd0f-40ed-af09-75d8c81af879",
+      "favourite_uid": null,
+      "eans": [
+        "1182132171278"
+      ],
+      "product_type": "BASIC",
+      "name": "Practical Cotton Gloves",
+      "image": "https://picsum.photos/seed/bp3gizF/477/948",
+      "unit_price": {
+        "price": 77.92486811775534,
+        "measure": "l",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 93.5098417413064,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "product_uid": "261ad121-d08f-4409-80ca-e4c05e702e03",
+      "favourite_uid": null,
+      "eans": [
+        "1237078175617"
+      ],
+      "product_type": "BASIC",
+      "name": "Sleek Granite Chicken",
+      "image": "https://picsum.photos/seed/bsd5Xsmt4L/2094/2095",
+      "unit_price": {
+        "price": 46.983511403481536,
+        "measure": "l",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 56.38021368417784,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "product_uid": "96acb634-1160-4748-8950-ba23c1c93796",
+      "favourite_uid": null,
+      "eans": [
+        "4675777169782"
+      ],
+      "product_type": "BASIC",
+      "name": "Handmade Silk Pizza",
+      "image": "https://picsum.photos/seed/311zLRY0V/11/594",
+      "unit_price": {
+        "price": 85.09451924922357,
+        "measure": "pack",
+        "measure_amount": 6
+      },
+      "retail_price": {
+        "price": 102.11342309906827,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "product_uid": "512e35e1-12e1-47aa-88d3-f2002e372f64",
+      "favourite_uid": null,
+      "eans": [
+        "5800939884899"
+      ],
+      "product_type": "BASIC",
+      "name": "Incredible Marble Chicken",
+      "image": "https://picsum.photos/seed/GLTj0Fbb/3569/3614",
+      "unit_price": {
+        "price": 68.1416668127823,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 81.77000017533877,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "product_uid": "2020f685-7b1b-40db-9d08-ac29972f1243",
+      "favourite_uid": null,
+      "eans": [
+        "8807632314363"
+      ],
+      "product_type": "BASIC",
+      "name": "Small Plastic Shirt",
+      "image": "https://picsum.photos/seed/DgIdUiiRx8/2946/451",
+      "unit_price": {
+        "price": 94.76450023784572,
+        "measure": "kg",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 113.71740028541487,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "product_uid": "529f8e33-8e11-444b-ac50-7c14f38b7f8f",
+      "favourite_uid": null,
+      "eans": [
+        "7086037590941"
+      ],
+      "product_type": "BASIC",
+      "name": "Soft Concrete Fish",
+      "image": "https://picsum.photos/seed/uAJmeLM3Tn/3497/1274",
+      "unit_price": {
+        "price": 50.975157653378666,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 61.170189184054394,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "product_uid": "b2658204-e129-4a5e-94d6-6ebd1ace79c9",
+      "favourite_uid": null,
+      "eans": [
+        "2323408516463"
+      ],
+      "product_type": "BASIC",
+      "name": "Recycled Granite Sausages",
+      "image": "https://picsum.photos/seed/oJ4fRAL/268/238",
+      "unit_price": {
+        "price": 72.56042948320112,
+        "measure": "kg",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 87.07251537984133,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "product_uid": "0e7cf82d-cb56-40fa-b400-b4fa714cc5ec",
+      "favourite_uid": null,
+      "eans": [
+        "6368872561924"
+      ],
+      "product_type": "BASIC",
+      "name": "Incredible Wooden Gloves",
+      "image": "https://picsum.photos/seed/vzMv4ppBj/697/530",
+      "unit_price": {
+        "price": 7.84532591662616,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 9.414391099951391,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "product_uid": "423aefbb-53bd-4f81-bf56-2b546d91fbee",
+      "favourite_uid": null,
+      "eans": [
+        "6212093260359"
+      ],
+      "product_type": "BASIC",
+      "name": "Electronic Ceramic Table",
+      "image": "https://picsum.photos/seed/pB2Qy/1537/2322",
+      "unit_price": {
+        "price": 83.28095987552852,
+        "measure": "l",
+        "measure_amount": 6
+      },
+      "retail_price": {
+        "price": 99.93715185063422,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "product_uid": "ce057c88-3815-4469-bf09-9489ba42b2cb",
+      "favourite_uid": null,
+      "eans": [
+        "6119314674415"
+      ],
+      "product_type": "BASIC",
+      "name": "Bespoke Cotton Shoes",
+      "image": "https://picsum.photos/seed/5dsiL/943/953",
+      "unit_price": {
+        "price": 93.43504934793224,
+        "measure": "pack",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 112.12205921751868,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "product_uid": "8f6a7d8d-6724-44dd-bebc-779abda531d9",
+      "favourite_uid": null,
+      "eans": [
+        "9244922621343"
+      ],
+      "product_type": "BASIC",
+      "name": "Modern Granite Bike",
+      "image": "https://picsum.photos/seed/SSRDlPLpq/2185/3698",
+      "unit_price": {
+        "price": 75.8826527009729,
+        "measure": "kg",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 91.05918324116747,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "product_uid": "25c0625c-6341-4c3a-82f7-de1152c696a0",
+      "favourite_uid": null,
+      "eans": [
+        "2865708882522"
+      ],
+      "product_type": "BASIC",
+      "name": "Awesome Gold Pizza",
+      "image": "https://picsum.photos/seed/wPkOclPPd/2798/1448",
+      "unit_price": {
+        "price": 92.89803144047036,
+        "measure": "kg",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 111.47763772856443,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "product_uid": "d16ea406-cdb5-4b8b-bd53-179dbcdaa5af",
+      "favourite_uid": null,
+      "eans": [
+        "2059991028565"
+      ],
+      "product_type": "BASIC",
+      "name": "Modern Wooden Chair",
+      "image": "https://picsum.photos/seed/nB3ria5v/3081/3959",
+      "unit_price": {
+        "price": 66.20952981767492,
+        "measure": "kg",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 79.4514357812099,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "product_uid": "aef65980-7c6b-4633-a443-9bdd8c162aa5",
+      "favourite_uid": null,
+      "eans": [
+        "6572385243178"
+      ],
+      "product_type": "BASIC",
+      "name": "Handcrafted Silk Chicken",
+      "image": "https://picsum.photos/seed/vmtiqp/3050/2693",
+      "unit_price": {
+        "price": 53.0526762329067,
+        "measure": "kg",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 63.663211479488034,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "product_uid": "5bdb4028-d7e5-4623-a899-b971cc24c30f",
+      "favourite_uid": null,
+      "eans": [
+        "4204098588579"
+      ],
+      "product_type": "BASIC",
+      "name": "Fantastic Gold Ball",
+      "image": "https://picsum.photos/seed/63NyWsQrq/982/1590",
+      "unit_price": {
+        "price": 72.2425066267741,
+        "measure": "kg",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 86.69100795212891,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "product_uid": "4dc15d68-c94e-424a-9964-d1d455ee1ed0",
+      "favourite_uid": null,
+      "eans": [
+        "3785873195116"
+      ],
+      "product_type": "BASIC",
+      "name": "Practical Cotton Keyboard",
+      "image": "https://picsum.photos/seed/niL7RvK/925/2351",
+      "unit_price": {
+        "price": 59.74700293685067,
+        "measure": "pack",
+        "measure_amount": 6
+      },
+      "retail_price": {
+        "price": 71.6964035242208,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "product_uid": "074e34e1-ad20-49da-9cd8-115ed31207b3",
+      "favourite_uid": null,
+      "eans": [
+        "3678351812768"
+      ],
+      "product_type": "BASIC",
+      "name": "Elegant Wooden Sausages",
+      "image": "https://picsum.photos/seed/qHjURSJ/3301/1104",
+      "unit_price": {
+        "price": 82.75872399046746,
+        "measure": "pack",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 99.31046878856095,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "product_uid": "03bb99b0-c091-439d-b2ce-f91df362d67a",
+      "favourite_uid": null,
+      "eans": [
+        "1678010177926"
+      ],
+      "product_type": "BASIC",
+      "name": "Incredible Aluminum Salad",
+      "image": "https://picsum.photos/seed/DLqvXV/3360/396",
+      "unit_price": {
+        "price": 52.75675120639774,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 63.30810144767728,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "product_uid": "d934ba4d-ce68-401d-a261-bd6e5ac44e00",
+      "favourite_uid": null,
+      "eans": [
+        "3511077364740"
+      ],
+      "product_type": "BASIC",
+      "name": "Rustic Granite Bike",
+      "image": "https://picsum.photos/seed/mbBmxgKeDV/2963/308",
+      "unit_price": {
+        "price": 1.4659551512689615,
+        "measure": "l",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 1.7591461815227538,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "product_uid": "412e8d60-f721-4ad5-b0b6-c510f3118767",
+      "favourite_uid": null,
+      "eans": [
+        "1716677824986"
+      ],
+      "product_type": "BASIC",
+      "name": "Tasty Concrete Pants",
+      "image": "https://picsum.photos/seed/TxLpbC9/3814/3456",
+      "unit_price": {
+        "price": 92.33519501487089,
+        "measure": "kg",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 110.80223401784507,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "product_uid": "cd4a7ca4-bd33-4f81-853a-5ba99edc874c",
+      "favourite_uid": null,
+      "eans": [
+        "8386924133172"
+      ],
+      "product_type": "BASIC",
+      "name": "Gorgeous Steel Gloves",
+      "image": "https://picsum.photos/seed/ohspDPwu/1615/3186",
+      "unit_price": {
+        "price": 62.64768477751425,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 75.17722173301709,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "product_uid": "cdae48a2-5cb8-418f-b3d7-ecd40a182a90",
+      "favourite_uid": null,
+      "eans": [
+        "3389260461169"
+      ],
+      "product_type": "BASIC",
+      "name": "Tasty Steel Bacon",
+      "image": "https://picsum.photos/seed/AcMBmL/3940/1026",
+      "unit_price": {
+        "price": 76.5474188895958,
+        "measure": "pack",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 91.85690266751496,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "product_uid": "b9daab70-2ae1-41a7-9d90-ea883323f541",
+      "favourite_uid": null,
+      "eans": [
+        "3860458556266"
+      ],
+      "product_type": "BASIC",
+      "name": "Fresh Cotton Car",
+      "image": "https://picsum.photos/seed/U5mZi/1094/2803",
+      "unit_price": {
+        "price": 60.87170095051511,
+        "measure": "pack",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 73.04604114061813,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "product_uid": "6c36209a-5e9f-42b0-b6a7-6b455034c982",
+      "favourite_uid": null,
+      "eans": [
+        "8142779448155"
+      ],
+      "product_type": "BASIC",
+      "name": "Ergonomic Ceramic Pants",
+      "image": "https://picsum.photos/seed/a4bZrDLb7/2310/112",
+      "unit_price": {
+        "price": 90.43284358923721,
+        "measure": "kg",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 108.51941230708465,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "product_uid": "1e03425b-bbd0-46dd-938a-a47acdd604ba",
+      "favourite_uid": null,
+      "eans": [
+        "1017817938653"
+      ],
+      "product_type": "BASIC",
+      "name": "Ergonomic Marble Hat",
+      "image": "https://picsum.photos/seed/GHaCsJqe/1224/2457",
+      "unit_price": {
+        "price": 91.83402898746691,
+        "measure": "pack",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 110.20083478496029,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "product_uid": "9f8ce736-8dc1-47e5-9e6a-0dcf8034783f",
+      "favourite_uid": null,
+      "eans": [
+        "8691913812650"
+      ],
+      "product_type": "BASIC",
+      "name": "Electronic Metal Shirt",
+      "image": "https://picsum.photos/seed/GvtWIl08/501/1343",
+      "unit_price": {
+        "price": 16.074657397227167,
+        "measure": "l",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 19.2895888766726,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "product_uid": "15f97068-dc53-4549-92e2-7f0879167d78",
+      "favourite_uid": null,
+      "eans": [
+        "0973517551665"
+      ],
+      "product_type": "BASIC",
+      "name": "Practical Silk Computer",
+      "image": "https://picsum.photos/seed/WTQDqR5/1255/2048",
+      "unit_price": {
+        "price": 59.2003298752785,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 71.04039585033419,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "product_uid": "efc27fb3-c76f-4623-9d1c-b2685e5cd248",
+      "favourite_uid": null,
+      "eans": [
+        "6171900809888"
+      ],
+      "product_type": "BASIC",
+      "name": "Fresh Aluminum Computer",
+      "image": "https://picsum.photos/seed/vlv3Q9U/3187/83",
+      "unit_price": {
+        "price": 68.12887624691129,
+        "measure": "kg",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 81.75465149629355,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "product_uid": "d019fcb6-8d31-421c-a9d8-9b5e7605ff7f",
+      "favourite_uid": null,
+      "eans": [
+        "8276402926477"
+      ],
+      "product_type": "BASIC",
+      "name": "Unbranded Rubber Chair",
+      "image": "https://picsum.photos/seed/HxSOl7x3s/977/2909",
+      "unit_price": {
+        "price": 96.08807478240314,
+        "measure": "kg",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 115.30568973888376,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "product_uid": "23d8d6ad-ed13-429a-bf49-94eeb922a4a9",
+      "favourite_uid": null,
+      "eans": [
+        "7789522291304"
+      ],
+      "product_type": "BASIC",
+      "name": "Ergonomic Rubber Bacon",
+      "image": "https://picsum.photos/seed/GICMj/1212/218",
+      "unit_price": {
+        "price": 28.030752321220675,
+        "measure": "pack",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 33.636902785464805,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "product_uid": "6ead1412-06fe-4bbc-b8c4-76b2e6c6f675",
+      "favourite_uid": null,
+      "eans": [
+        "4794135445930"
+      ],
+      "product_type": "BASIC",
+      "name": "Bespoke Gold Sausages",
+      "image": "https://picsum.photos/seed/TGOc2Rv/3313/3982",
+      "unit_price": {
+        "price": 31.99844024987374,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 38.39812829984849,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "product_uid": "e61b7303-aa50-4cad-a429-32756df47a36",
+      "favourite_uid": null,
+      "eans": [
+        "0374196979607"
+      ],
+      "product_type": "BASIC",
+      "name": "Bespoke Plastic Pants",
+      "image": "https://picsum.photos/seed/HJNVevj/2129/906",
+      "unit_price": {
+        "price": 33.82701317872262,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 40.592415814467145,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "product_uid": "72b38a38-48e9-4947-ae5d-91196a5965cf",
+      "favourite_uid": null,
+      "eans": [
+        "1419609710076"
+      ],
+      "product_type": "BASIC",
+      "name": "Sleek Bronze Salad",
+      "image": "https://picsum.photos/seed/uJruO/1271/2500",
+      "unit_price": {
+        "price": 42.73132562151372,
+        "measure": "pack",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 51.27759074581646,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "product_uid": "9d532795-52ed-42ff-8b04-8b3da633aedd",
+      "favourite_uid": null,
+      "eans": [
+        "2538468701717"
+      ],
+      "product_type": "BASIC",
+      "name": "Sleek Bronze Shirt",
+      "image": "https://picsum.photos/seed/989Kcp/1797/386",
+      "unit_price": {
+        "price": 41.189050532955584,
+        "measure": "kg",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 49.426860639546696,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "product_uid": "853f299a-8a12-46d7-ad1e-3ec49b64db55",
+      "favourite_uid": null,
+      "eans": [
+        "0815117628255"
+      ],
+      "product_type": "BASIC",
+      "name": "Rustic Aluminum Sausages",
+      "image": "https://picsum.photos/seed/O0rz9CG15/2591/3152",
+      "unit_price": {
+        "price": 70.17826502506335,
+        "measure": "l",
+        "measure_amount": 10
+      },
+      "retail_price": {
+        "price": 84.21391803007602,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "product_uid": "a36794f5-f517-4efc-835d-20d5849e5af9",
+      "favourite_uid": null,
+      "eans": [
+        "0126735059979"
+      ],
+      "product_type": "BASIC",
+      "name": "Incredible Granite Pants",
+      "image": "https://picsum.photos/seed/5dseJbEo1/803/1346",
+      "unit_price": {
+        "price": 61.75048689560238,
+        "measure": "pack",
+        "measure_amount": 2
+      },
+      "retail_price": {
+        "price": 74.10058427472285,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "product_uid": "bff8a5a2-f343-40e9-8fad-622d95ae84bf",
+      "favourite_uid": null,
+      "eans": [
+        "5286598526826"
+      ],
+      "product_type": "BASIC",
+      "name": "Frozen Silk Pizza",
+      "image": "https://picsum.photos/seed/VKEpZte/257/1021",
+      "unit_price": {
+        "price": 34.15821230238352,
+        "measure": "pack",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 40.98985476286022,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "product_uid": "c4e8b40d-32e8-48b8-bb9d-780bf012c00f",
+      "favourite_uid": null,
+      "eans": [
+        "5945115982392"
+      ],
+      "product_type": "BASIC",
+      "name": "Soft Marble Keyboard",
+      "image": "https://picsum.photos/seed/HXar0/3272/3689",
+      "unit_price": {
+        "price": 60.795855010390746,
+        "measure": "l",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 72.95502601246889,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "product_uid": "b525bc86-b03f-45fc-aaf0-676ffa9da65a",
+      "favourite_uid": null,
+      "eans": [
+        "4523278082038"
+      ],
+      "product_type": "BASIC",
+      "name": "Elegant Gold Chicken",
+      "image": "https://picsum.photos/seed/d0MArl/382/3553",
+      "unit_price": {
+        "price": 31.71445185640087,
+        "measure": "kg",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 38.05734222768104,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "product_uid": "f2cb253d-d09e-4800-8858-913d3b721540",
+      "favourite_uid": null,
+      "eans": [
+        "3534741471334"
+      ],
+      "product_type": "BASIC",
+      "name": "Practical Marble Pants",
+      "image": "https://picsum.photos/seed/meWBmF/937/598",
+      "unit_price": {
+        "price": 72.1956303663361,
+        "measure": "kg",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 86.63475643960332,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "product_uid": "bb26af90-dbe0-41ab-ac31-9c3467a0554a",
+      "favourite_uid": null,
+      "eans": [
+        "6588429816279"
+      ],
+      "product_type": "BASIC",
+      "name": "Unbranded Cotton Fish",
+      "image": "https://picsum.photos/seed/jzFKE1/19/1578",
+      "unit_price": {
+        "price": 73.21751998606815,
+        "measure": "pack",
+        "measure_amount": 2
+      },
+      "retail_price": {
+        "price": 87.86102398328178,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "product_uid": "a6d44626-5f32-4ea8-afd3-ca1891bd920d",
+      "favourite_uid": null,
+      "eans": [
+        "7772601146919"
+      ],
+      "product_type": "BASIC",
+      "name": "Sleek Silk Table",
+      "image": "https://picsum.photos/seed/A4Vmy/1085/1028",
+      "unit_price": {
+        "price": 45.1585403976865,
+        "measure": "kg",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 54.1902484772238,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "product_uid": "ed5737f6-2460-4b73-b889-77336e7196c4",
+      "favourite_uid": null,
+      "eans": [
+        "9300073479500"
+      ],
+      "product_type": "BASIC",
+      "name": "Handcrafted Cotton Keyboard",
+      "image": "https://picsum.photos/seed/YVxvutDC/1471/3039",
+      "unit_price": {
+        "price": 45.08519205988897,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 54.10223047186676,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "product_uid": "18d210f8-034c-40cf-9916-a8e4e2f45478",
+      "favourite_uid": null,
+      "eans": [
+        "7790736381742"
+      ],
+      "product_type": "BASIC",
+      "name": "Practical Plastic Gloves",
+      "image": "https://picsum.photos/seed/aMrSAsMo/332/3412",
+      "unit_price": {
+        "price": 37.49948136667453,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 44.999377640009435,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "product_uid": "5b06be71-1cb9-4957-9a8b-4628b3e7f773",
+      "favourite_uid": null,
+      "eans": [
+        "5789354654342"
+      ],
+      "product_type": "BASIC",
+      "name": "Refined Plastic Cheese",
+      "image": "https://picsum.photos/seed/6VQN6OD6/2553/639",
+      "unit_price": {
+        "price": 67.69323521401358,
+        "measure": "pack",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 81.23188225681629,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "product_uid": "0f3c9e00-419f-4719-95ec-b7ed38885abc",
+      "favourite_uid": null,
+      "eans": [
+        "0158081653774"
+      ],
+      "product_type": "BASIC",
+      "name": "Frozen Steel Bike",
+      "image": "https://picsum.photos/seed/UzjCv0/2866/2800",
+      "unit_price": {
+        "price": 56.23964165456823,
+        "measure": "l",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 67.48756998548187,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "product_uid": "af0d2438-6ecd-41a8-bc5a-48ac56d324d1",
+      "favourite_uid": null,
+      "eans": [
+        "7039518766472"
+      ],
+      "product_type": "BASIC",
+      "name": "Ergonomic Cotton Tuna",
+      "image": "https://picsum.photos/seed/mc5JdFG/3601/3923",
+      "unit_price": {
+        "price": 35.57736505935073,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 42.692838071220876,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "product_uid": "bcab182b-cba6-4bf6-84e4-1a17cd2dd560",
+      "favourite_uid": null,
+      "eans": [
+        "6725831581587"
+      ],
+      "product_type": "BASIC",
+      "name": "Electronic Metal Chair",
+      "image": "https://picsum.photos/seed/qHOxzZ/3767/1790",
+      "unit_price": {
+        "price": 12.03426751382847,
+        "measure": "l",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 14.441121016594163,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "product_uid": "6c1f460f-27e6-4e8a-80dd-3223bf9f9ba6",
+      "favourite_uid": null,
+      "eans": [
+        "9283990076916"
+      ],
+      "product_type": "BASIC",
+      "name": "Fresh Gold Cheese",
+      "image": "https://picsum.photos/seed/fEUHFxO/2134/2686",
+      "unit_price": {
+        "price": 68.85923726281507,
+        "measure": "pack",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 82.63108471537808,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "product_uid": "1b814511-ef41-458a-9944-257133711150",
+      "favourite_uid": null,
+      "eans": [
+        "2542632469819"
+      ],
+      "product_type": "BASIC",
+      "name": "Refined Metal Sausages",
+      "image": "https://picsum.photos/seed/AkcEB/1339/2075",
+      "unit_price": {
+        "price": 60.96972220471551,
+        "measure": "l",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 73.16366664565861,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "product_uid": "dd07d93c-88b7-49a2-8529-f2b0fa32e398",
+      "favourite_uid": null,
+      "eans": [
+        "1719504304197"
+      ],
+      "product_type": "BASIC",
+      "name": "Gorgeous Silk Fish",
+      "image": "https://picsum.photos/seed/bQu2O7Ik/3101/2657",
+      "unit_price": {
+        "price": 65.03070654726318,
+        "measure": "kg",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 78.03684785671581,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "product_uid": "24ae508d-5cf8-4db8-b658-49480405798f",
+      "favourite_uid": null,
+      "eans": [
+        "4834852484937"
+      ],
+      "product_type": "BASIC",
+      "name": "Recycled Plastic Pizza",
+      "image": "https://picsum.photos/seed/WNTAW/688/624",
+      "unit_price": {
+        "price": 32.59188306491108,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 39.110259677893296,
+        "measure": "each"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "product_uid": "1491a83c-31b2-4be6-8640-ccbd14951b39",
+      "favourite_uid": null,
+      "eans": [
+        "8973420313571"
+      ],
+      "product_type": "BASIC",
+      "name": "Soft Bamboo Cheese",
+      "image": "https://picsum.photos/seed/vi6Iu/1307/82",
+      "unit_price": {
+        "price": 52.44030764634057,
+        "measure": "kg",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 62.92836917560868,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "product_uid": "cd361078-7a6e-4530-b217-3123a100c843",
+      "favourite_uid": null,
+      "eans": [
+        "0993181201750"
+      ],
+      "product_type": "BASIC",
+      "name": "Luxurious Aluminum Bike",
+      "image": "https://picsum.photos/seed/KHPLJJB5l/1783/1861",
+      "unit_price": {
+        "price": 70.73903175116689,
+        "measure": "kg",
+        "measure_amount": 7
+      },
+      "retail_price": {
+        "price": 84.88683810140027,
+        "measure": "kg"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "product_uid": "358533b8-5d3a-40a3-956d-c893a39d263e",
+      "favourite_uid": null,
+      "eans": [
+        "4382331027410"
+      ],
+      "product_type": "BASIC",
+      "name": "Refined Cotton Hat",
+      "image": "https://picsum.photos/seed/j910Ew25j/595/2039",
+      "unit_price": {
+        "price": 93.46514809507612,
+        "measure": "pack",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 112.15817771409134,
+        "measure": "pack"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "product_uid": "b3abb10c-d2b3-47b1-bb61-51de6be1dd40",
+      "favourite_uid": null,
+      "eans": [
+        "6809910167082"
+      ],
+      "product_type": "BASIC",
+      "name": "Intelligent Plastic Tuna",
+      "image": "https://picsum.photos/seed/3S7Iv2/3343/545",
+      "unit_price": {
+        "price": 9.625812900548107,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 11.550975480657728,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "product_uid": "150f75a4-5f49-49f3-a506-de70c9b12a68",
+      "favourite_uid": null,
+      "eans": [
+        "1755001662395"
+      ],
+      "product_type": "BASIC",
+      "name": "Handmade Concrete Hat",
+      "image": "https://picsum.photos/seed/V09j9aQp/3664/2874",
+      "unit_price": {
+        "price": 69.39151636752284,
+        "measure": "pack",
+        "measure_amount": 4
+      },
+      "retail_price": {
+        "price": 83.26981964102741,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "product_uid": "4d5ecef9-532c-4039-acda-d547c0518b7a",
+      "favourite_uid": null,
+      "eans": [
+        "5559126760135"
+      ],
+      "product_type": "BASIC",
+      "name": "Fantastic Gold Keyboard",
+      "image": "https://picsum.photos/seed/ti7HfJiYF/3347/3065",
+      "unit_price": {
+        "price": 56.831705246474705,
+        "measure": "kg",
+        "measure_amount": 3
+      },
+      "retail_price": {
+        "price": 68.19804629576964,
+        "measure": "kg"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "product_uid": "90feaaf1-a010-4d7a-b54f-b49e1fb49dd0",
+      "favourite_uid": null,
+      "eans": [
+        "2408812386037"
+      ],
+      "product_type": "BASIC",
+      "name": "Unbranded Rubber Shirt",
+      "image": "https://picsum.photos/seed/XEy0d/1365/2008",
+      "unit_price": {
+        "price": 51.75033372478784,
+        "measure": "each",
+        "measure_amount": 1
+      },
+      "retail_price": {
+        "price": 62.10040046974541,
+        "measure": "each"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        },
+        {
+          "id": 4,
+          "name": "Electronics"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "product_uid": "9a593ece-8a13-4dcf-8661-9054637525b2",
+      "favourite_uid": null,
+      "eans": [
+        "0061550429167"
+      ],
+      "product_type": "BASIC",
+      "name": "Frozen Rubber Keyboard",
+      "image": "https://picsum.photos/seed/5E0y0jmY7/2294/464",
+      "unit_price": {
+        "price": 40.57071479062707,
+        "measure": "pack",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 48.684857748752485,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "product_uid": "543923f1-58e4-4d8e-919c-32d426ddaaba",
+      "favourite_uid": null,
+      "eans": [
+        "9654340833420"
+      ],
+      "product_type": "BASIC",
+      "name": "Electronic Rubber Chicken",
+      "image": "https://picsum.photos/seed/4FHlslo0YY/3277/2152",
+      "unit_price": {
+        "price": 3.0309027554280723,
+        "measure": "l",
+        "measure_amount": 5
+      },
+      "retail_price": {
+        "price": 3.6370833065136865,
+        "measure": "l"
+      },
+      "is_alcoholic": true,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Food"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "product_uid": "e2e1150c-8354-4a2f-971a-fb498581a72e",
+      "favourite_uid": null,
+      "eans": [
+        "2997515241003"
+      ],
+      "product_type": "BASIC",
+      "name": "Bespoke Aluminum Salad",
+      "image": "https://picsum.photos/seed/SbE34/1998/15",
+      "unit_price": {
+        "price": 58.38749964648921,
+        "measure": "l",
+        "measure_amount": 8
+      },
+      "retail_price": {
+        "price": 70.06499957578706,
+        "measure": "l"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        },
+        {
+          "id": 3,
+          "name": "Household"
+        },
+        {
+          "id": 1,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "product_uid": "8521d4ee-fea0-4d2e-8387-53fdb4cbcab4",
+      "favourite_uid": null,
+      "eans": [
+        "4531416290856"
+      ],
+      "product_type": "BASIC",
+      "name": "Licensed Gold Tuna",
+      "image": "https://picsum.photos/seed/Gnrjp/626/338",
+      "unit_price": {
+        "price": 96.56854448792214,
+        "measure": "pack",
+        "measure_amount": 9
+      },
+      "retail_price": {
+        "price": 115.88225338550656,
+        "measure": "pack"
+      },
+      "is_alcoholic": false,
+      "reviews": {},
+      "categories": [
+        {
+          "id": 5,
+          "name": "Clothing"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 29,
+      "orderDate": "2026-01-08T14:23:54.429Z",
+      "status": "pending",
+      "total": 292.1841645624725,
+      "items": [
+        {
+          "productId": 60,
+          "quantity": 4,
+          "price": 292.1841645624725
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customerId": 4,
+      "orderDate": "2025-10-05T01:45:41.044Z",
+      "status": "delivered",
+      "total": 163.93883184323377,
+      "items": [
+        {
+          "productId": 70,
+          "quantity": 2,
+          "price": 102.55518149163292
+        },
+        {
+          "productId": 19,
+          "quantity": 5,
+          "price": 61.383650351600856
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customerId": 37,
+      "orderDate": "2025-03-29T04:29:09.387Z",
+      "status": "delivered",
+      "total": 297.77375504963544,
+      "items": [
+        {
+          "productId": 88,
+          "quantity": 3,
+          "price": 234.11054357014743
+        },
+        {
+          "productId": 51,
+          "quantity": 1,
+          "price": 63.663211479488034
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customerId": 40,
+      "orderDate": "2025-01-23T11:17:42.515Z",
+      "status": "pending",
+      "total": 427.3628643321937,
+      "items": [
+        {
+          "productId": 85,
+          "quantity": 5,
+          "price": 72.20560508297082
+        },
+        {
+          "productId": 48,
+          "quantity": 3,
+          "price": 273.1775497235024
+        },
+        {
+          "productId": 74,
+          "quantity": 2,
+          "price": 81.97970952572044
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": 9,
+      "orderDate": "2025-10-08T08:26:10.386Z",
+      "status": "pending",
+      "total": 960.578540388794,
+      "items": [
+        {
+          "productId": 68,
+          "quantity": 3,
+          "price": 115.19438489954547
+        },
+        {
+          "productId": 45,
+          "quantity": 2,
+          "price": 18.828782199902783
+        },
+        {
+          "productId": 21,
+          "quantity": 5,
+          "price": 447.65750611752645
+        },
+        {
+          "productId": 17,
+          "quantity": 5,
+          "price": 378.89786717181926
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customerId": 8,
+      "orderDate": "2025-02-08T03:40:02.970Z",
+      "status": "delivered",
+      "total": 18.185416532568432,
+      "items": [
+        {
+          "productId": 98,
+          "quantity": 5,
+          "price": 18.185416532568432
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customerId": 40,
+      "orderDate": "2025-07-22T04:40:36.747Z",
+      "status": "shipped",
+      "total": 1156.7697003315088,
+      "items": [
+        {
+          "productId": 67,
+          "quantity": 1,
+          "price": 33.636902785464805
+        },
+        {
+          "productId": 41,
+          "quantity": 5,
+          "price": 408.8500008766938
+        },
+        {
+          "productId": 21,
+          "quantity": 5,
+          "price": 447.65750611752645
+        },
+        {
+          "productId": 51,
+          "quantity": 1,
+          "price": 63.663211479488034
+        },
+        {
+          "productId": 69,
+          "quantity": 5,
+          "price": 202.9620790723357
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customerId": 24,
+      "orderDate": "2026-01-07T15:38:41.039Z",
+      "status": "pending",
+      "total": 1093.6644083066844,
+      "items": [
+        {
+          "productId": 92,
+          "quantity": 3,
+          "price": 336.474533142274
+        },
+        {
+          "productId": 84,
+          "quantity": 1,
+          "price": 42.692838071220876
+        },
+        {
+          "productId": 77,
+          "quantity": 4,
+          "price": 346.5390257584133
+        },
+        {
+          "productId": 36,
+          "quantity": 5,
+          "price": 367.9580113347764
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customerId": 49,
+      "orderDate": "2025-08-18T02:41:31.600Z",
+      "status": "delivered",
+      "total": 483.30989906528424,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 2,
+          "price": 199.62449588951483
+        },
+        {
+          "productId": 73,
+          "quantity": 3,
+          "price": 222.30175282416855
+        },
+        {
+          "productId": 19,
+          "quantity": 5,
+          "price": 61.383650351600856
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customerId": 33,
+      "orderDate": "2025-12-20T12:43:23.738Z",
+      "status": "pending",
+      "total": 1022.370555523268,
+      "items": [
+        {
+          "productId": 62,
+          "quantity": 4,
+          "price": 440.80333913984117
+        },
+        {
+          "productId": 49,
+          "quantity": 3,
+          "price": 334.4329131856933
+        },
+        {
+          "productId": 71,
+          "quantity": 5,
+          "price": 247.1343031977335
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "customerId": 18,
+      "orderDate": "2025-03-20T14:09:10.929Z",
+      "status": "pending",
+      "total": 118.0615225367251,
+      "items": [
+        {
+          "productId": 10,
+          "quantity": 1,
+          "price": 23.50174529445387
+        },
+        {
+          "productId": 24,
+          "quantity": 1,
+          "price": 94.55977724227124
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "customerId": 6,
+      "orderDate": "2025-01-25T17:44:41.269Z",
+      "status": "pending",
+      "total": 977.945800580363,
+      "items": [
+        {
+          "productId": 11,
+          "quantity": 5,
+          "price": 391.33779364378347
+        },
+        {
+          "productId": 46,
+          "quantity": 2,
+          "price": 199.87430370126845
+        },
+        {
+          "productId": 77,
+          "quantity": 2,
+          "price": 173.26951287920664
+        },
+        {
+          "productId": 84,
+          "quantity": 5,
+          "price": 213.46419035610438
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "customerId": 8,
+      "orderDate": "2025-10-26T13:16:21.444Z",
+      "status": "pending",
+      "total": 21.489379695350454,
+      "items": [
+        {
+          "productId": 6,
+          "quantity": 1,
+          "price": 21.489379695350454
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "customerId": 3,
+      "orderDate": "2025-06-18T05:29:06.147Z",
+      "status": "pending",
+      "total": 1239.5205564665741,
+      "items": [
+        {
+          "productId": 25,
+          "quantity": 4,
+          "price": 354.5534505760484
+        },
+        {
+          "productId": 100,
+          "quantity": 3,
+          "price": 347.6467601565197
+        },
+        {
+          "productId": 64,
+          "quantity": 5,
+          "price": 355.201979251671
+        },
+        {
+          "productId": 48,
+          "quantity": 2,
+          "price": 182.11836648233495
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "customerId": 16,
+      "orderDate": "2025-09-27T15:41:50.102Z",
+      "status": "delivered",
+      "total": 209.6912073741639,
+      "items": [
+        {
+          "productId": 18,
+          "quantity": 1,
+          "price": 91.79209858883533
+        },
+        {
+          "productId": 86,
+          "quantity": 1,
+          "price": 82.63108471537808
+        },
+        {
+          "productId": 12,
+          "quantity": 2,
+          "price": 35.268024069950485
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "customerId": 31,
+      "orderDate": "2025-07-26T16:37:33.026Z",
+      "status": "pending",
+      "total": 1854.1619474275026,
+      "items": [
+        {
+          "productId": 57,
+          "quantity": 4,
+          "price": 443.20893607138026
+        },
+        {
+          "productId": 35,
+          "quantity": 5,
+          "price": 450.76452524714625
+        },
+        {
+          "productId": 23,
+          "quantity": 4,
+          "price": 261.02235898284846
+        },
+        {
+          "productId": 96,
+          "quantity": 4,
+          "price": 248.40160187898164
+        },
+        {
+          "productId": 35,
+          "quantity": 5,
+          "price": 450.76452524714625
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "customerId": 3,
+      "orderDate": "2025-12-12T07:30:05.512Z",
+      "status": "shipped",
+      "total": 746.0143958561732,
+      "items": [
+        {
+          "productId": 80,
+          "quantity": 5,
+          "price": 270.5111523593338
+        },
+        {
+          "productId": 2,
+          "quantity": 3,
+          "price": 322.81613433018094
+        },
+        {
+          "productId": 33,
+          "quantity": 2,
+          "price": 152.68710916665856
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "customerId": 18,
+      "orderDate": "2025-08-24T22:10:03.708Z",
+      "status": "delivered",
+      "total": 1423.1816600038262,
+      "items": [
+        {
+          "productId": 52,
+          "quantity": 4,
+          "price": 346.76403180851565
+        },
+        {
+          "productId": 2,
+          "quantity": 4,
+          "price": 430.42151244024126
+        },
+        {
+          "productId": 37,
+          "quantity": 5,
+          "price": 254.65832211128583
+        },
+        {
+          "productId": 11,
+          "quantity": 5,
+          "price": 391.33779364378347
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "customerId": 44,
+      "orderDate": "2025-03-22T15:18:32.517Z",
+      "status": "delivered",
+      "total": 551.0041739248014,
+      "items": [
+        {
+          "productId": 62,
+          "quantity": 5,
+          "price": 551.0041739248014
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "customerId": 30,
+      "orderDate": "2025-04-21T11:05:35.631Z",
+      "status": "pending",
+      "total": 240.20609914287516,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 2,
+          "price": 199.62449588951483
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 40.581603253360335
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "customerId": 41,
+      "orderDate": "2025-08-06T21:42:14.745Z",
+      "status": "pending",
+      "total": 291.82010404987557,
+      "items": [
+        {
+          "productId": 75,
+          "quantity": 4,
+          "price": 291.82010404987557
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "customerId": 42,
+      "orderDate": "2025-06-01T14:45:54.358Z",
+      "status": "pending",
+      "total": 767.2085521271101,
+      "items": [
+        {
+          "productId": 66,
+          "quantity": 2,
+          "price": 230.6113794777675
+        },
+        {
+          "productId": 60,
+          "quantity": 3,
+          "price": 219.1381234218544
+        },
+        {
+          "productId": 72,
+          "quantity": 2,
+          "price": 168.42783606015203
+        },
+        {
+          "productId": 78,
+          "quantity": 1,
+          "price": 87.86102398328178
+        },
+        {
+          "productId": 43,
+          "quantity": 1,
+          "price": 61.170189184054394
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "customerId": 15,
+      "orderDate": "2025-10-31T08:12:20.731Z",
+      "status": "pending",
+      "total": 338.00654886017844,
+      "items": [
+        {
+          "productId": 31,
+          "quantity": 3,
+          "price": 116.02831855253523
+        },
+        {
+          "productId": 31,
+          "quantity": 4,
+          "price": 154.70442473671363
+        },
+        {
+          "productId": 67,
+          "quantity": 2,
+          "price": 67.27380557092961
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "customerId": 11,
+      "orderDate": "2025-07-09T00:49:33.936Z",
+      "status": "delivered",
+      "total": 85.38567614244175,
+      "items": [
+        {
+          "productId": 84,
+          "quantity": 2,
+          "price": 85.38567614244175
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "customerId": 7,
+      "orderDate": "2025-04-28T21:33:31.720Z",
+      "status": "delivered",
+      "total": 482.82593527737407,
+      "items": [
+        {
+          "productId": 57,
+          "quantity": 3,
+          "price": 332.4067020535352
+        },
+        {
+          "productId": 26,
+          "quantity": 1,
+          "price": 63.34671784399758
+        },
+        {
+          "productId": 44,
+          "quantity": 1,
+          "price": 87.07251537984133
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "customerId": 27,
+      "orderDate": "2025-12-25T04:05:59.473Z",
+      "status": "pending",
+      "total": 307.46948725234193,
+      "items": [
+        {
+          "productId": 18,
+          "quantity": 1,
+          "price": 91.79209858883533
+        },
+        {
+          "productId": 20,
+          "quantity": 2,
+          "price": 104.87515464566155
+        },
+        {
+          "productId": 57,
+          "quantity": 1,
+          "price": 110.80223401784507
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "customerId": 12,
+      "orderDate": "2025-07-13T06:03:57.440Z",
+      "status": "shipped",
+      "total": 416.99163304843887,
+      "items": [
+        {
+          "productId": 18,
+          "quantity": 2,
+          "price": 183.58419717767066
+        },
+        {
+          "productId": 28,
+          "quantity": 3,
+          "price": 221.13070580044803
+        },
+        {
+          "productId": 19,
+          "quantity": 1,
+          "price": 12.276730070320172
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "customerId": 44,
+      "orderDate": "2025-04-15T13:02:56.390Z",
+      "status": "delivered",
+      "total": 85.95751878140182,
+      "items": [
+        {
+          "productId": 6,
+          "quantity": 4,
+          "price": 85.95751878140182
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "customerId": 36,
+      "orderDate": "2025-07-11T15:21:29.144Z",
+      "status": "delivered",
+      "total": 906.1203432654637,
+      "items": [
+        {
+          "productId": 100,
+          "quantity": 4,
+          "price": 463.52901354202623
+        },
+        {
+          "productId": 74,
+          "quantity": 2,
+          "price": 81.97970952572044
+        },
+        {
+          "productId": 35,
+          "quantity": 4,
+          "price": 360.611620197717
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "customerId": 31,
+      "orderDate": "2025-08-03T16:40:20.751Z",
+      "status": "pending",
+      "total": 899.097484967489,
+      "items": [
+        {
+          "productId": 99,
+          "quantity": 2,
+          "price": 140.1299991515741
+        },
+        {
+          "productId": 56,
+          "quantity": 2,
+          "price": 3.5182923630455076
+        },
+        {
+          "productId": 7,
+          "quantity": 5,
+          "price": 499.0612397237871
+        },
+        {
+          "productId": 70,
+          "quantity": 5,
+          "price": 256.3879537290823
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "customerId": 1,
+      "orderDate": "2025-09-17T11:17:45.118Z",
+      "status": "delivered",
+      "total": 245.26395448888064,
+      "items": [
+        {
+          "productId": 65,
+          "quantity": 3,
+          "price": 245.26395448888064
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "customerId": 33,
+      "orderDate": "2026-01-21T11:51:07.487Z",
+      "status": "pending",
+      "total": 560.0156380346128,
+      "items": [
+        {
+          "productId": 26,
+          "quantity": 1,
+          "price": 63.34671784399758
+        },
+        {
+          "productId": 80,
+          "quantity": 4,
+          "price": 216.40892188746705
+        },
+        {
+          "productId": 99,
+          "quantity": 4,
+          "price": 280.2599983031482
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "customerId": 38,
+      "orderDate": "2025-06-02T11:47:30.317Z",
+      "status": "shipped",
+      "total": 1130.7433670960233,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 3,
+          "price": 299.43674383427225
+        },
+        {
+          "productId": 89,
+          "quantity": 2,
+          "price": 78.22051935578659
+        },
+        {
+          "productId": 90,
+          "quantity": 1,
+          "price": 62.92836917560868
+        },
+        {
+          "productId": 82,
+          "quantity": 4,
+          "price": 324.92752902726517
+        },
+        {
+          "productId": 60,
+          "quantity": 5,
+          "price": 365.23020570309063
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "customerId": 1,
+      "orderDate": "2025-03-03T07:27:48.169Z",
+      "status": "shipped",
+      "total": 616.0815609537085,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 4,
+          "price": 399.24899177902967
+        },
+        {
+          "productId": 87,
+          "quantity": 2,
+          "price": 146.32733329131722
+        },
+        {
+          "productId": 10,
+          "quantity": 3,
+          "price": 70.5052358833616
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "customerId": 28,
+      "orderDate": "2025-06-15T00:51:15.840Z",
+      "status": "shipped",
+      "total": 1170.725477355762,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 5,
+          "price": 538.0268905503016
+        },
+        {
+          "productId": 61,
+          "quantity": 4,
+          "price": 434.0776492283386
+        },
+        {
+          "productId": 54,
+          "quantity": 2,
+          "price": 198.6209375771219
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "customerId": 19,
+      "orderDate": "2025-03-25T14:34:24.539Z",
+      "status": "shipped",
+      "total": 1361.4336759304538,
+      "items": [
+        {
+          "productId": 39,
+          "quantity": 1,
+          "price": 56.38021368417784
+        },
+        {
+          "productId": 18,
+          "quantity": 4,
+          "price": 367.1683943553413
+        },
+        {
+          "productId": 55,
+          "quantity": 4,
+          "price": 253.23240579070912
+        },
+        {
+          "productId": 78,
+          "quantity": 3,
+          "price": 263.58307194984536
+        },
+        {
+          "productId": 72,
+          "quantity": 5,
+          "price": 421.06959015038007
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "customerId": 29,
+      "orderDate": "2025-07-11T14:31:14.274Z",
+      "status": "delivered",
+      "total": 1456.2557597035577,
+      "items": [
+        {
+          "productId": 36,
+          "quantity": 5,
+          "price": 367.9580113347764
+        },
+        {
+          "productId": 80,
+          "quantity": 3,
+          "price": 162.30669141560028
+        },
+        {
+          "productId": 31,
+          "quantity": 5,
+          "price": 193.38053092089206
+        },
+        {
+          "productId": 7,
+          "quantity": 3,
+          "price": 299.43674383427225
+        },
+        {
+          "productId": 77,
+          "quantity": 5,
+          "price": 433.1737821980166
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "customerId": 22,
+      "orderDate": "2026-01-01T17:28:49.179Z",
+      "status": "delivered",
+      "total": 370.9858798068804,
+      "items": [
+        {
+          "productId": 57,
+          "quantity": 3,
+          "price": 332.4067020535352
+        },
+        {
+          "productId": 63,
+          "quantity": 2,
+          "price": 38.5791777533452
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "customerId": 34,
+      "orderDate": "2025-08-05T06:56:50.360Z",
+      "status": "pending",
+      "total": 1034.096428714465,
+      "items": [
+        {
+          "productId": 60,
+          "quantity": 4,
+          "price": 292.1841645624725
+        },
+        {
+          "productId": 37,
+          "quantity": 5,
+          "price": 254.65832211128583
+        },
+        {
+          "productId": 82,
+          "quantity": 4,
+          "price": 324.92752902726517
+        },
+        {
+          "productId": 1,
+          "quantity": 4,
+          "price": 162.32641301344134
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "customerId": 7,
+      "orderDate": "2025-11-02T21:04:47.845Z",
+      "status": "shipped",
+      "total": 718.8491147726533,
+      "items": [
+        {
+          "productId": 40,
+          "quantity": 2,
+          "price": 204.22684619813654
+        },
+        {
+          "productId": 19,
+          "quantity": 1,
+          "price": 12.276730070320172
+        },
+        {
+          "productId": 59,
+          "quantity": 3,
+          "price": 275.57070800254485
+        },
+        {
+          "productId": 6,
+          "quantity": 3,
+          "price": 64.46813908605137
+        },
+        {
+          "productId": 80,
+          "quantity": 3,
+          "price": 162.30669141560028
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "customerId": 39,
+      "orderDate": "2025-11-22T04:20:55.792Z",
+      "status": "pending",
+      "total": 353.9553916897992,
+      "items": [
+        {
+          "productId": 95,
+          "quantity": 4,
+          "price": 272.7921851830786
+        },
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 81.16320650672067
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "customerId": 36,
+      "orderDate": "2025-07-01T17:55:15.521Z",
+      "status": "delivered",
+      "total": 1365.3931036432882,
+      "items": [
+        {
+          "productId": 61,
+          "quantity": 5,
+          "price": 542.5970615354232
+        },
+        {
+          "productId": 13,
+          "quantity": 3,
+          "price": 76.23192488581694
+        },
+        {
+          "productId": 92,
+          "quantity": 4,
+          "price": 448.63271085636535
+        },
+        {
+          "productId": 54,
+          "quantity": 3,
+          "price": 297.93140636568285
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "customerId": 27,
+      "orderDate": "2025-12-31T22:08:52.926Z",
+      "status": "delivered",
+      "total": 796.634235928148,
+      "items": [
+        {
+          "productId": 40,
+          "quantity": 2,
+          "price": 204.22684619813654
+        },
+        {
+          "productId": 88,
+          "quantity": 4,
+          "price": 312.14739142686324
+        },
+        {
+          "productId": 99,
+          "quantity": 4,
+          "price": 280.2599983031482
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "customerId": 9,
+      "orderDate": "2025-04-10T23:33:03.252Z",
+      "status": "pending",
+      "total": 1059.7504896159853,
+      "items": [
+        {
+          "productId": 93,
+          "quantity": 5,
+          "price": 57.75487740328864
+        },
+        {
+          "productId": 9,
+          "quantity": 4,
+          "price": 202.12651389437164
+        },
+        {
+          "productId": 23,
+          "quantity": 5,
+          "price": 326.27794872856055
+        },
+        {
+          "productId": 14,
+          "quantity": 4,
+          "price": 417.2109359055866
+        },
+        {
+          "productId": 39,
+          "quantity": 1,
+          "price": 56.38021368417784
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "customerId": 11,
+      "orderDate": "2025-05-18T09:30:06.464Z",
+      "status": "delivered",
+      "total": 524.5090811353821,
+      "items": [
+        {
+          "productId": 63,
+          "quantity": 3,
+          "price": 57.8687666300178
+        },
+        {
+          "productId": 91,
+          "quantity": 1,
+          "price": 84.88683810140027
+        },
+        {
+          "productId": 57,
+          "quantity": 1,
+          "price": 110.80223401784507
+        },
+        {
+          "productId": 79,
+          "quantity": 5,
+          "price": 270.95124238611896
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "customerId": 33,
+      "orderDate": "2025-08-01T00:13:21.142Z",
+      "status": "delivered",
+      "total": 50.53162847359291,
+      "items": [
+        {
+          "productId": 9,
+          "quantity": 1,
+          "price": 50.53162847359291
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "customerId": 29,
+      "orderDate": "2025-09-19T09:24:54.801Z",
+      "status": "delivered",
+      "total": 623.1892031980781,
+      "items": [
+        {
+          "productId": 14,
+          "quantity": 1,
+          "price": 104.30273397639665
+        },
+        {
+          "productId": 43,
+          "quantity": 4,
+          "price": 244.68075673621757
+        },
+        {
+          "productId": 39,
+          "quantity": 4,
+          "price": 225.52085473671136
+        },
+        {
+          "productId": 97,
+          "quantity": 1,
+          "price": 48.684857748752485
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "customerId": 35,
+      "orderDate": "2025-08-16T07:03:22.595Z",
+      "status": "shipped",
+      "total": 894.994960072817,
+      "items": [
+        {
+          "productId": 19,
+          "quantity": 4,
+          "price": 49.106920281280686
+        },
+        {
+          "productId": 86,
+          "quantity": 5,
+          "price": 413.15542357689037
+        },
+        {
+          "productId": 36,
+          "quantity": 2,
+          "price": 147.18320453391055
+        },
+        {
+          "productId": 51,
+          "quantity": 3,
+          "price": 190.9896344384641
+        },
+        {
+          "productId": 24,
+          "quantity": 1,
+          "price": 94.55977724227124
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "customerId": 1,
+      "orderDate": "2025-05-19T05:25:58.025Z",
+      "status": "delivered",
+      "total": 140.19295980039308,
+      "items": [
+        {
+          "productId": 12,
+          "quantity": 5,
+          "price": 88.17006017487621
+        },
+        {
+          "productId": 30,
+          "quantity": 1,
+          "price": 52.02289962551688
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "customerId": 48,
+      "orderDate": "2025-05-11T13:04:09.434Z",
+      "status": "shipped",
+      "total": 425.24259955799266,
+      "items": [
+        {
+          "productId": 24,
+          "quantity": 4,
+          "price": 378.23910896908495
+        },
+        {
+          "productId": 10,
+          "quantity": 2,
+          "price": 47.00349058890774
+        }
+      ]
+    }
+  ],
   "login": {}
 }

@@ -1,14 +1,26 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
+import { useRoute } from 'vuetify/lib/composables/router'
+import useApiFetch from '@/composables/useApiFetch'
+import { onBeforeMount } from 'vue'
 
-console.log('customer view')
+// pulling customer data with the customerNumber from the route
 const route = useRoute()
-console.log('full path: ', route.fullPath)
+onBeforeMount(() => {
+  try {
+    const { data, error } = useApiFetch(
+      `/customers?customerNumber=${route.value.params.customerId}`,
+    )
+    console.log('customer data', data.value)
+  } catch (error) {
+    console.error(error)
+  }
+})
+
+const fetchCustomer = () => {}
 </script>
 
 <template>
-  <div class="h-svh">
-    <p>Customer View</p>
-    <p>Router full path: {{ route.params }}</p>
+  <div class="card lg:card-side bg-neutral-800 border border-secondary shadow-sm text-neutral-200">
+    <div class="card-body">asdasd</div>
   </div>
 </template>

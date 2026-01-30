@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Suspense } from 'vue'
 import BaseTable from '../../components/ui/BaseTable.vue'
 </script>
 
