@@ -24,7 +24,7 @@ type Customer struct {
 	LastName       string  `json:"last_name"`
 	Phone          string  `gorm:"unique" json:"phone"`
 	Email          string  `gorm:"unique" json:"email"`
-	Address        string  `gorm:"embedded;embeddedPrefix:address_"`
+	Address        Address `gorm:"embedded;embeddedPrefix:address_"`
 	CustomerNumber string  `gorm:"unique" json:"customer_number"`
 	Orders         []Order `json:"orders,omitempty"`
 }
@@ -49,11 +49,12 @@ type Product struct {
 
 type Order struct {
 	gorm.Model
-	OrderID   uint        `json:"customer_id"`
-	OrderDate time.Time   `json:"order_date"`
-	Status    string      `json:"status"`
-	Total     float64     `json:"total"`
-	Items     []OrderItem `json:"items"`
+	CustomerID uint        `json:"customer_id"`
+	OrderID    uint        `json:"customer_id"`
+	OrderDate  time.Time   `json:"order_date"`
+	Status     string      `json:"status"`
+	Total      float64     `json:"total"`
+	Items      []OrderItem `json:"items"`
 }
 
 type OrderItem struct {
