@@ -1,18 +1,23 @@
-package seeders
+package main
 
 import (
 	"fmt"
-	"log"
 	"math/rand"
 
 	"github.com/DragostinH/CallCentreOrderManagementTool/database"
 	"github.com/DragostinH/CallCentreOrderManagementTool/models"
+	"github.com/DragostinH/CallCentreOrderManagementTool/seeders"
 	"github.com/brianvoe/gofakeit/v6"
 )
 
+func main() {
+	seeders.SeedAll()
+}
+
 func SeedAll() {
-	// Seed Categories
 	SeedCategories()
+	SeedProducts()
+	SeedCustomersWithOrders()
 }
 
 func SeedCategories() {
@@ -72,36 +77,83 @@ func SeedProducts() {
 
 }
 
+// func SeedCustomersWithOrders() {
+// 	status := []string{"pending", "shipped", "delivered"}
+// 	var total float64
+// 	var items []models.OrderItem
+// 	val, ok := database.DB.Get("products")
+
+// 	if !ok {
+// 		log.Fatal("no products")
+// 	}
+
+// 	products, ok := val.([]models.Product)
+// 	if !ok {
+// 		log.Fatal("cant assign products from DB to product variable")
+// 	}
+// 	fmt.Println("Seeding customers with orders...")
+
+// 	for i := 0; i < 50; i++ {
+// 		cstmr := models.Customer{
+// 			FirstName: gofakeit.FirstName(),
+// 			LastName:  gofakeit.LastName(),
+// 			Phone:     gofakeit.Phone(),
+// 			Email:     gofakeit.Email(),
+// 			Address: models.Address{
+// 				PostCode: gofakeit.Zip(),
+// 				City:     gofakeit.City(),
+// 				Street:   gofakeit.Street(),
+// 			},
+// 			CustomerNumber: gofakeit.LetterN(8),
+// 		}
+
+// 		database.DB.Create(&cstmr)
+
+// 		numItems := gofakeit.Number(1, 5)
+
+// 		for j := 0; j < numItems; j++ {
+// 			product := products[rand.Intn(len(products))]
+// 			quantity := gofakeit.Number(1, 5)
+// 			linePrice := product.RetailPrice.Price * float64(quantity)
+// 			total += linePrice
+
+// 			items = append(items, models.OrderItem{
+// 				ProductID: product.ID,
+// 				Quantity:  quantity,
+// 				Price:     linePrice,
+// 			})
+// 		}
+// 		order := models.Order{
+// 			CustomerID: cstmr.ID,
+// 			OrderDate:  gofakeit.Date(),
+// 			Status:     status[rand.Intn(len(status))],
+// 			Total:      total,
+// 			Items:      items,
+// 		}
+// 		database.DB.Create(&order)
+
+// 	}
+// 	fmt.Println("Created 50 Customers and Orders")
+// 	fmt.Println("Seeding complete!")
+
+// }
+
 func SeedCustomersWithOrders() {
-	status := []string{"pending", "shipped", "delivered"}
-	var total float64
-	var items []models.OrderItem
-	val, ok := database.DB.Get("products")
-
-	if !ok {
-		log.Fatal("no products")
-	}
-
-	products, ok := val.([]models.Product)
-	if !ok {
-		log.Fatal("cant assign products from DB to product variable")
-	}
 	fmt.Println("Seeding customers with orders...")
-	// what do you need first, orders or customers?
-	// first u need to create orders and then customers
-	// customer can have many orders but orders can have 1 customer
-	// var orders []models.Order
-	// var customers []models.Customer
 
-	// for i := 0; i < 100; i++ {
-	// 	order := models.Order{
-	// 		OrderID:   gofakeit.UintRange(1, 400),
-	// 		OrderDate: gofakeit.Date(),
-	// 		Status:    gofakeit.State(),
-	// 	}
-	// }
+	// FIX: Correct way to get products from GORM
+	var allProducts []models.Product
+	database.DB.Find(&allProducts)
+
+	if len(allProducts) == 0 {
+		fmt.Println("No products found to attach to orders. Run SeedProducts first.")
+		return
+	}
+
+	statusOptions := []string{"pending", "shipped", "delivered"}
 
 	for i := 0; i < 50; i++ {
+		// 1. Create Customer
 		cstmr := models.Customer{
 			FirstName: gofakeit.FirstName(),
 			LastName:  gofakeit.LastName(),
@@ -114,34 +166,35 @@ func SeedCustomersWithOrders() {
 			},
 			CustomerNumber: gofakeit.LetterN(8),
 		}
-
 		database.DB.Create(&cstmr)
 
+		// 2. Generate Items for an Order
 		numItems := gofakeit.Number(1, 5)
+		var currentOrderItems []models.OrderItem
+		var orderTotal float64
 
 		for j := 0; j < numItems; j++ {
-			product := products[rand.Intn(len(products))]
+			product := allProducts[rand.Intn(len(allProducts))]
 			quantity := gofakeit.Number(1, 5)
 			linePrice := product.RetailPrice.Price * float64(quantity)
-			total += linePrice
+			orderTotal += linePrice
 
-			items = append(items, models.OrderItem{
+			currentOrderItems = append(currentOrderItems, models.OrderItem{
 				ProductID: product.ID,
 				Quantity:  quantity,
 				Price:     linePrice,
 			})
 		}
+
+		// 3. Create the Order
 		order := models.Order{
 			CustomerID: cstmr.ID,
 			OrderDate:  gofakeit.Date(),
-			Status:     status[rand.Intn(len(status))],
-			Total:      total,
-			Items:      items,
+			Status:     statusOptions[rand.Intn(len(statusOptions))],
+			Total:      orderTotal,
+			Items:      currentOrderItems,
 		}
 		database.DB.Create(&order)
-
 	}
-	fmt.Println("Created 50 Customers and Orders")
-	fmt.Println("Seeding complete!")
-
+	fmt.Println("Created 50 Customers and their Orders.")
 }
