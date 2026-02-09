@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { Suspense } from 'vue'
 import BaseTable from '../../components/ui/BaseTable.vue'
+import { useFetch } from '@vueuse/core'
+import useApiFetch from '@/composables/useApiFetch'
+
+const { data, error, isFetching } = useApiFetch('/customers').get().json()
+
+console.log('data', data.value)
 </script>
 
 <template>

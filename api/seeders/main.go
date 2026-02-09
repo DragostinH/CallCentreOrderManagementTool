@@ -1,17 +1,17 @@
-package main
+package seeders
 
 import (
 	"fmt"
+	"log"
 	"math/rand"
 
 	"github.com/DragostinH/CallCentreOrderManagementTool/database"
 	"github.com/DragostinH/CallCentreOrderManagementTool/models"
-	"github.com/DragostinH/CallCentreOrderManagementTool/seeders"
 	"github.com/brianvoe/gofakeit/v6"
 )
 
 func main() {
-	seeders.SeedAll()
+	SeedAll()
 }
 
 func SeedAll() {
@@ -37,9 +37,10 @@ func SeedProducts() {
 	fmt.Println("Seeding Products...")
 	measures := []string{"kg", "mg", "l", "each", "pack"}
 	var products []models.Product
-	var categories []models.Category
-	if len(categories) == 0 {
-		categories = []models.Category{{Name: "Beverages"}}
+	var allCategories []models.Category
+	database.DB.Find(&allCategories)
+	if len(allCategories) == 0 {
+		log.Fatal("Found 0 categories. Not seeded?")
 	}
 	for i := 0; i < 100; i++ {
 		unitPrice := gofakeit.Price(1, 100)
@@ -67,7 +68,7 @@ func SeedProducts() {
 				MeasureAmount: measureAmount,
 			},
 			Categories: []models.Category{
-				categories[rand.Intn(len(categories))],
+				allCategories[rand.Intn(len(allCategories))],
 			},
 		}
 		database.DB.Create(&product)

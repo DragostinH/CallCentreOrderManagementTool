@@ -13,9 +13,8 @@ var DB *gorm.DB
 var err error
 
 func Connect() {
-	// creating a dsn (data source name) from the env - format: "your_username:your_password@tcp(hostname:3306)/db_name"
-	// dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
-	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s",
+	// dsn := "user:pass@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
 		os.Getenv("DB_USER"),
 		os.Getenv("DB_PASSWORD"),
 		os.Getenv("DB_HOST"),
