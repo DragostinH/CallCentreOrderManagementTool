@@ -14,12 +14,6 @@ const props = defineProps({
   data: Object,
 })
 
-const { isFetching, error, data, onFetchError, onFetchFinally, onFetchResponse } = useApiFetch<
-  Customer[]
->(URL, {
-  refetch: true,
-}).json()
-
 const handleClick = (customerNumber: string) => {
   if (router) router.push(`/customer/${customerNumber}`)
 }
@@ -29,7 +23,7 @@ const handlePrevPage = () => {
   --page.value
 }
 const handleNextPage = () => {
-  if (data.value.length === 0) return
+  if (props.data?.length === 0) return
   ++page.value
 }
 </script>
@@ -57,7 +51,7 @@ const handleNextPage = () => {
           class="hover:bg-neutral-400 cursor-pointer"
         >
           <th>{{ item.id }}</th>
-          <td>{{ item.name }}</td>
+          <td>{{ item.firstName }}</td>
           <td>{{ item.address }}</td>
           <td>{{ item.customerNumber }}</td>
           <td>{{ item.email }}</td>
