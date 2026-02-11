@@ -7,10 +7,7 @@ const tableData = ref([])
 onMounted(() => {
   const { data, error, isFetching } = useApiFetch('/customers').get().json()
   tableData.value = data.value
-  console.log('mounted data', tableData.value)
 })
-
-console.log('data', tableData.value)
 </script>
 
 <template>

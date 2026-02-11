@@ -1,14 +1,8 @@
 <script setup lang="ts">
-import { computed, onBeforeMount, onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { useRouter } from 'vuetify/lib/composables/router.mjs'
-import useApiFetch from '@/composables/useApiFetch'
-import type { Customer } from '@/types/customerType'
 const page = ref(1)
 const router = useRouter()
-const URL = computed(() => {
-  return `customers?_page=${page.value}&_per_page=10`
-  // return `https://jsonplaceholder.typicode.com/todos/${page.value}`
-})
 
 const props = defineProps({
   data: Object,
