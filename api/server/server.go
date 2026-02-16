@@ -12,10 +12,11 @@ import (
 
 func ServerStart() {
 	corsSet := cors.New(cors.Options{
-		AllowedOrigins:   []string{"http://127.0.0.1:5173", "http://localhost:3000"}, // Your Vue URLs
+		AllowedOrigins:   []string{"http://localhost:5173", "http://127.0.0.1:5173"},
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowedHeaders:   []string{"*"},
 		AllowCredentials: true,
+		Debug:            true,
 	})
 	database.Connect()
 

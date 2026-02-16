@@ -6,6 +6,7 @@ import (
 	"log"
 
 	"github.com/DragostinH/CallCentreOrderManagementTool/database"
+	"github.com/DragostinH/CallCentreOrderManagementTool/migrations"
 	"github.com/DragostinH/CallCentreOrderManagementTool/models"
 	"github.com/DragostinH/CallCentreOrderManagementTool/seeders"
 	"github.com/DragostinH/CallCentreOrderManagementTool/server"
@@ -21,11 +22,17 @@ func main() {
 		log.Println("No .env file found, using defaults")
 	}
 
-	if *mode == "seed" {
+	switch *mode {
+	case "seed":
 		fmt.Println("Starting seeding process...")
+		// migrations.ClearTable()
 		SeedAndMigrate()
 
-	} else {
+	case "truncate":
+		fmt.Println("Starting truncate...")
+		database.Connect()
+		migrations.ClearTable()
+	default:
 		fmt.Println("Starting server...")
 		Start()
 

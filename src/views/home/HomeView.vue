@@ -1,13 +1,8 @@
 <script setup lang="ts">
-import { onMounted, ref, Suspense } from 'vue'
-import BaseTable from '../../components/ui/BaseTable.vue'
-import { useFetch } from '@vueuse/core'
+import BaseTable from '@/components/ui/BaseTable.vue'
 import useApiFetch from '@/composables/useApiFetch'
-const tableData = ref([])
-onMounted(() => {
-  const { data, error, isFetching } = useApiFetch('/customers').get().json()
-  tableData.value = data.value
-})
+
+const { data, error, isFetching } = useApiFetch('/customers').get().json()
 </script>
 
 <template>
@@ -41,6 +36,6 @@ onMounted(() => {
       <button class="btn btn-primary col-span-2">Search</button>
     </div>
     <!-- Table results -->
-    <BaseTable :data="tableData" />
+    <BaseTable :data="data" :isFetching="isFetching" />
   </div>
 </template>

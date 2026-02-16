@@ -3,7 +3,7 @@ import NavBar from '@/components/header/NavBar.vue'
 </script>
 
 <template>
-  <main class="flex flex-col gap-4 h-svh">
+  <main class="flex flex-col gap-4">
     <!-- Header -->
     <NavBar />
     <div class="p-4">

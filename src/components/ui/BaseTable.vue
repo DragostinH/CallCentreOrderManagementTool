@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useRouter } from 'vuetify/lib/composables/router.mjs'
+import { useRouter } from 'vue-router'
 const page = ref(1)
 const router = useRouter()
 
 const props = defineProps({
   data: Object,
+  isFetching: Boolean,
 })
 
 const handleClick = (customerNumber: string) => {
@@ -23,7 +24,10 @@ const handleNextPage = () => {
 </script>
 
 <template>
-  <div class="overflow-x-auto w-full rounded-box border border-base-content/5 bg-base-100">
+  <div
+    v-if="!isFetching"
+    class="overflow-x-auto w-full rounded-box border border-base-content/5 bg-base-100"
+  >
     <table class="table">
       <!-- head -->
       <thead>
@@ -37,10 +41,10 @@ const handleNextPage = () => {
           <th>Last Order</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody v-if="!isFetching">
         <tr
           @click="handleClick(item.customerNumber)"
-          v-for="(item, i) in data"
+          v-for="item in data"
           :key="item.id"
           class="hover:bg-neutral-400 cursor-pointer"
         >
@@ -53,32 +57,37 @@ const handleNextPage = () => {
           <td>{{ item?.orders?.length > 0 ? item.orders[0] : 'N/A' }}</td>
         </tr>
         <!-- <tr>
-          <th>1</th>
-          <td>Cy Ganderton</td>
-          <td>Quality Control Specialist</td>
-          <td>5622351</td>
-          <td>jon@jon.com</td>
-          <td>089848409</td>
-        </tr>
+            <th>1</th>
+            <td>Cy Ganderton</td>
+            <td>Quality Control Specialist</td>
+            <td>5622351</td>
+            <td>jon@jon.com</td>
+            <td>089848409</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Hart Hagerty</td>
+            <td>Desktop Support Technician</td>
+            <td>2351241</td>
+            <td>jon@jon.com</td>
+            <td>089848409</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>3451341</td>
+            <td>jon@jon.com</td>
+            <td>089848409</td>
+          </tr> -->
+      </tbody>
+      <tbody>
         <tr>
-          <th>2</th>
-          <td>Hart Hagerty</td>
-          <td>Desktop Support Technician</td>
-          <td>2351241</td>
-          <td>jon@jon.com</td>
-          <td>089848409</td>
+          <td colspan="7" className="bg-gray-100 p-2 text-center">Loading</td>
         </tr>
-        <tr>
-          <th>3</th>
-          <td>Brice Swyre</td>
-          <td>Tax Accountant</td>
-          <td>3451341</td>
-          <td>jon@jon.com</td>
-          <td>089848409</td>
-        </tr> -->
       </tbody>
     </table>
-    <div class="">
+    <div v-show="!isFetching" class="">
       <button @click="handlePrevPage" class="btn btn-primary uppercase">prev</button>
       <button @click="handleNextPage" class="btn btn-primary uppercase">next</button>
     </div>
