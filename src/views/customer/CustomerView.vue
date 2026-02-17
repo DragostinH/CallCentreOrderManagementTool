@@ -1,15 +1,25 @@
 <script setup lang="ts">
+import CustomerViewFields from '@/components/customer/CustomerViewFields.vue'
+import CustomerOrdersTable from '@/components/ui/Table/CustomerOrdersTable.vue'
 import useApiFetch from '@/composables/useApiFetch'
-import { onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
-
-// pulling customer data with the customerNumber from the route
 const route = useRoute()
-const { data, error } = useApiFetch(`/customers/${route.params.customerNumber}`).get().json()
+const { data, isFetching, error } = useApiFetch(`/customer/${route.params.customer_number}`)
+  .get()
+  .json()
 </script>
 
 <template>
-  <div class="card lg:card-side bg-neutral-800 border border-secondary shadow-sm text-neutral-200">
-    <div class="card-body">asdasd</div>
+  <div class="">
+    <div class="grid gap-4" v-if="data">
+      <CustomerViewFields :data="data" :is-fetching="isFetching" />
+      <CustomerOrdersTable :orders="data?.orders" :is-fetching="isFetching" />
+    </div>
+
+    <div v-else-if="isFetching">Loading Customer Profile...</div>
+
+    <div v-else-if="error">
+      {{ error }}
+    </div>
   </div>
 </template>

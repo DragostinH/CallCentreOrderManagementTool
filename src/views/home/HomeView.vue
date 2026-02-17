@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import BaseTable from '@/components/ui/BaseTable.vue'
+import CustomersSearchForm from '@/components/forms/CustomersSearchForm.vue'
+import BaseTable from '@/components/ui/Table/BaseTable.vue'
 import useApiFetch from '@/composables/useApiFetch'
 
 const { data, error, isFetching } = useApiFetch('/customers').get().json()
@@ -8,34 +9,13 @@ const { data, error, isFetching } = useApiFetch('/customers').get().json()
 <template>
   <div class="h-screen flex flex-col items-center gap-8">
     <!-- Search inputs -->
-    <div class="bg-base-200 grid grid-cols-2 p-4 w-1/2">
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">Name</legend>
-        <input type="text" placeholder="Name" class="input" />
-      </fieldset>
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">Customer Number</legend>
-        <input type="text" placeholder="Name" class="input" />
-      </fieldset>
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">Email</legend>
-        <input type="text" placeholder="Name" class="input" />
-      </fieldset>
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">Post Code</legend>
-        <input type="text" placeholder="Name" class="input" />
-      </fieldset>
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">Telephone Number</legend>
-        <input type="text" placeholder="Name" class="input" />
-      </fieldset>
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">Order Number</legend>
-        <input type="text" placeholder="Name" class="input" />
-      </fieldset>
-      <button class="btn btn-primary col-span-2">Search</button>
-    </div>
+    <CustomersSearchForm />
     <!-- Table results -->
-    <BaseTable :data="data" :isFetching="isFetching" />
+    <div class="w-full flex justify-center items-center">
+      <BaseTable :data="data" :isFetching="isFetching" />
+      <div v-if="error" class="">
+        <p>Whoops! Something's wrong with the fetching broski...</p>
+      </div>
+    </div>
   </div>
 </template>

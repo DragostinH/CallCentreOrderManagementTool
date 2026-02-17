@@ -6,7 +6,7 @@ import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
   { path: '/', component: () => HomeView },
   { path: '/auth', beforeEnter: () => {}, component: () => AuthView },
-  { path: '/customer/:customerId', component: () => CustomerView },
+  { path: '/customer/:customer_number', component: () => CustomerView },
 ]
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

@@ -11,6 +11,7 @@ import (
 )
 
 func ServerStart() {
+	database.Connect()
 	corsSet := cors.New(cors.Options{
 		AllowedOrigins:   []string{"http://localhost:5173", "http://127.0.0.1:5173"},
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
@@ -18,12 +19,14 @@ func ServerStart() {
 		AllowCredentials: true,
 		Debug:            true,
 	})
-	database.Connect()
 
 	routes := chi.NewRouter()
 	handler := corsSet.Handler(routes)
 
 	routes.Get("/customers", customer.GetCustomers)
+	routes.Get("/customer/{customer_number}", customer.GetCustomer)
+	routes.Get("/customers/search", customer.SearchCustomers)
+
 	log.Println("Server starting on port 3000...")
 	http.ListenAndServe(":3000", handler)
 }

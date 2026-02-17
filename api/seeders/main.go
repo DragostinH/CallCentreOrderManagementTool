@@ -78,71 +78,9 @@ func SeedProducts() {
 
 }
 
-// func SeedCustomersWithOrders() {
-// 	status := []string{"pending", "shipped", "delivered"}
-// 	var total float64
-// 	var items []models.OrderItem
-// 	val, ok := database.DB.Get("products")
-
-// 	if !ok {
-// 		log.Fatal("no products")
-// 	}
-
-// 	products, ok := val.([]models.Product)
-// 	if !ok {
-// 		log.Fatal("cant assign products from DB to product variable")
-// 	}
-// 	fmt.Println("Seeding customers with orders...")
-
-// 	for i := 0; i < 50; i++ {
-// 		cstmr := models.Customer{
-// 			FirstName: gofakeit.FirstName(),
-// 			LastName:  gofakeit.LastName(),
-// 			Phone:     gofakeit.Phone(),
-// 			Email:     gofakeit.Email(),
-// 			Address: models.Address{
-// 				PostCode: gofakeit.Zip(),
-// 				City:     gofakeit.City(),
-// 				Street:   gofakeit.Street(),
-// 			},
-// 			CustomerNumber: gofakeit.LetterN(8),
-// 		}
-
-// 		database.DB.Create(&cstmr)
-
-// 		numItems := gofakeit.Number(1, 5)
-
-// 		for j := 0; j < numItems; j++ {
-// 			product := products[rand.Intn(len(products))]
-// 			quantity := gofakeit.Number(1, 5)
-// 			linePrice := product.RetailPrice.Price * float64(quantity)
-// 			total += linePrice
-
-// 			items = append(items, models.OrderItem{
-// 				ProductID: product.ID,
-// 				Quantity:  quantity,
-// 				Price:     linePrice,
-// 			})
-// 		}
-// 		order := models.Order{
-// 			CustomerID: cstmr.ID,
-// 			OrderDate:  gofakeit.Date(),
-// 			Status:     status[rand.Intn(len(status))],
-// 			Total:      total,
-// 			Items:      items,
-// 		}
-// 		database.DB.Create(&order)
-
-// 	}
-// 	fmt.Println("Created 50 Customers and Orders")
-// 	fmt.Println("Seeding complete!")
-
-// }
-
 func SeedCustomersWithOrders() {
 	fmt.Println("Seeding customers with orders...")
 
-	// FIX: Correct way to get products from GORM
 	var allProducts []models.Product
 	database.DB.Find(&allProducts)
 
@@ -189,6 +127,7 @@ func SeedCustomersWithOrders() {
 
 		// 3. Create the Order
 		order := models.Order{
+			OrderID:    uint(gofakeit.IntRange(000000000, 999999999)),
 			CustomerID: cstmr.ID,
 			OrderDate:  gofakeit.Date(),
 			Status:     statusOptions[rand.Intn(len(statusOptions))],
@@ -196,6 +135,7 @@ func SeedCustomersWithOrders() {
 			Items:      currentOrderItems,
 		}
 		database.DB.Create(&order)
+
 	}
 	fmt.Println("Created 50 Customers and their Orders.")
 }

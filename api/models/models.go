@@ -50,7 +50,7 @@ type Product struct {
 type Order struct {
 	gorm.Model
 	CustomerID uint        `json:"customer_id"`
-	OrderID    uint        `json:"customer_id"`
+	OrderID    uint        `json:"order_id"`
 	OrderDate  time.Time   `json:"order_date"`
 	Status     string      `json:"status"`
 	Total      float64     `json:"total"`
