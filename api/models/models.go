@@ -49,17 +49,17 @@ type Product struct {
 
 type Order struct {
 	gorm.Model
-	CustomerID uint        `json:"customer_id"`
-	OrderID    uint        `json:"order_id"`
-	OrderDate  time.Time   `json:"order_date"`
-	Status     string      `json:"status"`
-	Total      float64     `json:"total"`
-	Items      []OrderItem `json:"items"`
+	CustomerID  uint        `gorm:"unique" json:"customer_id"`
+	OrderNumber uint        `gorm:"unique" json:"order_number"`
+	OrderDate   time.Time   `json:"order_date"`
+	Status      string      `json:"status"`
+	Total       float64     `json:"total"`
+	Items       []OrderItem `json:"items"`
 }
 
 type OrderItem struct {
 	gorm.Model
-	OrderID   uint    `gorm:"unique" json:"order_id"`
+	OrderID   uint    `json:"order_id"`
 	ProductID uint    `json:"product_id"`
 	Quantity  int     `json:"quantity"`
 	Price     float64 `json:"price"`

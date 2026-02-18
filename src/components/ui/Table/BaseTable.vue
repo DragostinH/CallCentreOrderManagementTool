@@ -5,7 +5,7 @@ const router = useRouter()
 
 defineProps<{
   isFetching: boolean
-  data: Customer[]
+  data: Customer[] | null
 }>()
 
 const fullName = (item: Customer) => item.first_name + ' ' + item.last_name
@@ -14,12 +14,12 @@ const handleClick = (customerNumber: string) => {
 }
 
 const lastOrder = (item: Customer) => {
-  return item?.orders[0]?.order_id
+  return item?.orders[0]?.order_number
 }
 </script>
 
 <template>
-  <div class="overflow-x-auto h-80 w-full rounded-box border border-base-content/5 bg-base-100">
+  <div class="overflow-x-auto max-h-80 w-full rounded-box border border-base-content/5 bg-base-100">
     <table class="table">
       <!-- head -->
       <thead class="sticky top-0 z-10 bg-white">
@@ -49,7 +49,12 @@ const lastOrder = (item: Customer) => {
           <td>{{ lastOrder(item) }}</td>
         </tr>
       </tbody>
-      <tbody v-else>
+      <tbody v-if="data?.length === 0">
+        <tr>
+          <td colspan="7" className="bg-gray-100 p-2 text-center">No results...</td>
+        </tr>
+      </tbody>
+      <tbody v-if="isFetching">
         <tr>
           <td colspan="7" className="bg-gray-100 p-2 text-center">Loading</td>
         </tr>

@@ -2,7 +2,7 @@
 import CustomerViewFields from '@/components/customer/CustomerViewFields.vue'
 import CustomerOrdersTable from '@/components/ui/Table/CustomerOrdersTable.vue'
 import useApiFetch from '@/composables/useApiFetch'
-import { useRoute } from 'vue-router'
+import { RouterView, useRoute } from 'vue-router'
 const route = useRoute()
 const { data, isFetching, error } = useApiFetch(`/customer/${route.params.customer_number}`)
   .get()
@@ -21,5 +21,6 @@ const { data, isFetching, error } = useApiFetch(`/customer/${route.params.custom
     <div v-else-if="error">
       {{ error }}
     </div>
+    <router-view />
   </div>
 </template>

@@ -13,7 +13,7 @@ import (
 func GetCustomers(w http.ResponseWriter, r *http.Request) {
 	var customers []models.Customer
 
-	database.DB.Preload("Orders").Find(&customers)
+	database.DB.Preload("Orders.Items").Find(&customers)
 
 	if len(customers) == 0 {
 		http.Error(w, "No customers found... Are  they seeded?", http.StatusBadRequest)

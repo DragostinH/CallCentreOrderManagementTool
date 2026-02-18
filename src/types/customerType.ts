@@ -12,9 +12,10 @@ interface OrderItem {
 }
 
 export interface Order {
+  ID: number,
   CreatedAt: string,
   customer_id: number
-  order_id: number
+  order_number: number
   order_date: string
   status: string
   total: number

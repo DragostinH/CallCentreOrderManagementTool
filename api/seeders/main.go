@@ -7,6 +7,7 @@ import (
 
 	"github.com/DragostinH/CallCentreOrderManagementTool/database"
 	"github.com/DragostinH/CallCentreOrderManagementTool/models"
+	"github.com/DragostinH/CallCentreOrderManagementTool/utils"
 	"github.com/brianvoe/gofakeit/v6"
 )
 
@@ -107,34 +108,37 @@ func SeedCustomersWithOrders() {
 		}
 		database.DB.Create(&cstmr)
 
-		// 2. Generate Items for an Order
-		numItems := gofakeit.Number(1, 5)
+		// 2. Create the Order
+		order := models.Order{
+			CustomerID:  cstmr.ID,
+			OrderNumber: uint(gofakeit.IntRange(000000000, 999999999)),
+			OrderDate:   gofakeit.Date(),
+			Status:      statusOptions[rand.Intn(len(statusOptions))],
+		}
+		database.DB.Create(&order)
+
+		// 3. Generate Items for an Order
+		numItems := gofakeit.Number(1, 50)
 		var currentOrderItems []models.OrderItem
 		var orderTotal float64
 
 		for j := 0; j < numItems; j++ {
 			product := allProducts[rand.Intn(len(allProducts))]
 			quantity := gofakeit.Number(1, 5)
-			linePrice := product.RetailPrice.Price * float64(quantity)
+			linePrice := utils.RoundFloat(product.RetailPrice.Price*float64(quantity), 2)
 			orderTotal += linePrice
 
 			currentOrderItems = append(currentOrderItems, models.OrderItem{
+				OrderID:   order.ID,
 				ProductID: product.ID,
 				Quantity:  quantity,
 				Price:     linePrice,
 			})
 		}
 
-		// 3. Create the Order
-		order := models.Order{
-			OrderID:    uint(gofakeit.IntRange(000000000, 999999999)),
-			CustomerID: cstmr.ID,
-			OrderDate:  gofakeit.Date(),
-			Status:     statusOptions[rand.Intn(len(statusOptions))],
-			Total:      orderTotal,
-			Items:      currentOrderItems,
-		}
-		database.DB.Create(&order)
+		database.DB.Create(&currentOrderItems)
+		order.Total = utils.RoundFloat(orderTotal, 2)
+		database.DB.Save(&order)
 
 	}
 	fmt.Println("Created 50 Customers and their Orders.")

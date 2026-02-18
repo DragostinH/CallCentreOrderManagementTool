@@ -1,15 +1,13 @@
 <script setup lang="ts">
-import type { Order } from '@/types/customerType'
-import { useRoute, useRouter } from 'vue-router'
-const routeCustomerNumber = useRoute().params.customer_number
-const router = useRouter()
+import { type Order } from '@/types/customerType'
+
 defineProps<{
-  orders: Order[]
+  order: Order
   isFetching: boolean
 }>()
 
-const handleClick = (order_id: number) => {
-  router.push(`/customer/${routeCustomerNumber}/order/${order_id}`)
+const handleClick = () =>{
+    
 }
 </script>
 
@@ -19,7 +17,7 @@ const handleClick = (order_id: number) => {
     <thead class="sticky top-0 z-10 bg-secondary">
       <tr>
         <th>Date</th>
-        <th>Order Number</th>
+        <th>Order ID</th>
         <th>Status</th>
         <th>Amount</th>
       </tr>
@@ -27,13 +25,13 @@ const handleClick = (order_id: number) => {
 
     <tbody v-if="!isFetching">
       <tr
-        @click="handleClick(order.order_number)"
+        @click="handleClick(order.order_id)"
         v-for="order in orders"
-        :key="order.order_number"
+        :key="order.order_id"
         class="hover:bg-neutral-400 cursor-pointer font-semibold"
       >
         <td>{{ new Date(order.order_date).toLocaleDateString() }}</td>
-        <td>{{ order.order_number }}</td>
+        <td>{{ order.order_id }}</td>
         <td>{{ order.status }}</td>
         <td>{{ order.total.toFixed(2) }}</td>
       </tr>
