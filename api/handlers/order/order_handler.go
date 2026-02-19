@@ -31,7 +31,12 @@ func GetOrder(w http.ResponseWriter, r *http.Request) {
 	var order models.Order
 	orderNumber := chi.URLParam(r, "order_number")
 
-	result := database.DB.Preload("Items").Where("order_number = ?", orderNumber).First(&order)
+	result := database.DB.
+		Preload("Items").
+		Preload("Items.Product").
+		Preload("Items.Product.Categories").
+		Where("order_number = ?", orderNumber).
+		First(&order)
 
 	if result.Error != nil {
 		http.Error(w, "Couldn't find anything with this order number when executing the query", http.StatusBadRequest)

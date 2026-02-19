@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Customer } from '@/types/customerType'
+import type { Customer } from '@/types/types'
 import { computed } from 'vue'
 
 const props = defineProps<{

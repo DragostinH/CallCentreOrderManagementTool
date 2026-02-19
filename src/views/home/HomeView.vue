@@ -3,14 +3,14 @@ import CustomersSearchForm from '@/components/forms/CustomersSearchForm.vue'
 import BaseTable from '@/components/ui/Table/BaseTable.vue'
 import useApiFetch from '@/composables/useApiFetch'
 import { buildSearchParams } from '@/helpers/buildSearchParams'
-import { type FormData as SearchFormData } from '@/types/types'
+import { type Customer, type FormData as SearchFormData } from '@/types/types'
 import { ref } from 'vue'
 const reactiveUrl = ref('')
 const { data, error, isFetching, execute } = useApiFetch(reactiveUrl, {
   immediate: false,
 })
   .get()
-  .json()
+  .json<Customer[]>()
 
 const handleSearchCustomers = (formData: SearchFormData) => {
   const params = buildSearchParams(formData)

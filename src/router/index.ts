@@ -2,6 +2,7 @@ import AuthView from '@/views/auth/AuthView.vue'
 import CustomerView from '@/views/customer/CustomerView.vue'
 import HomeView from '@/views/home/HomeView.vue'
 import OrderView from '@/views/order/OrderView.vue'
+import ProductView from '@/views/product/ProductView.vue'
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 
 const routes: RouteRecordRaw[] = [
@@ -21,6 +22,7 @@ const routes: RouteRecordRaw[] = [
       }
     ]
   },
+  { path: '/product/:product_id', component: ProductView, name: "product-page" }
 ]
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

@@ -44,7 +44,7 @@ func SeedProducts() {
 		log.Fatal("Found 0 categories. Not seeded?")
 	}
 	for i := 0; i < 100; i++ {
-		unitPrice := gofakeit.Price(1, 100)
+		unitPrice := utils.ToFixed(gofakeit.Price(1, 100), 2)
 		measure := measures[rand.Intn(len(measures))]
 		measureAmount := 1
 		if measure != "each" {
@@ -64,7 +64,7 @@ func SeedProducts() {
 				MeasureAmount: measureAmount,
 			},
 			RetailPrice: models.PriceInfo{
-				Price:         unitPrice * 1.2,
+				Price:         utils.ToFixed((unitPrice * 1.2), 2),
 				Measure:       measure,
 				MeasureAmount: measureAmount,
 			},
@@ -125,7 +125,7 @@ func SeedCustomersWithOrders() {
 		for j := 0; j < numItems; j++ {
 			product := allProducts[rand.Intn(len(allProducts))]
 			quantity := gofakeit.Number(1, 5)
-			linePrice := utils.RoundFloat(product.RetailPrice.Price*float64(quantity), 2)
+			linePrice := utils.ToFixed(product.RetailPrice.Price*float64(quantity), 2)
 			orderTotal += linePrice
 
 			currentOrderItems = append(currentOrderItems, models.OrderItem{
@@ -137,7 +137,7 @@ func SeedCustomersWithOrders() {
 		}
 
 		database.DB.Create(&currentOrderItems)
-		order.Total = utils.RoundFloat(orderTotal, 2)
+		order.Total = utils.ToFixed(orderTotal, 2)
 		database.DB.Save(&order)
 
 	}

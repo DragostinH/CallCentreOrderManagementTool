@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { Order } from '@/types/customerType'
+import type { Order } from '@/types/types'
 import { useRoute, useRouter } from 'vue-router'
 const routeCustomerNumber = useRoute().params.customer_number
 const router = useRouter()
 defineProps<{
-  orders: Order[]
+  orders: Order[] | null
   isFetching: boolean
 }>()
 

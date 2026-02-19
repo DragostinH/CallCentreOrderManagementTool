@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import { type Customer } from '@/types/customerType'
+import { type Customer } from '@/types/types'
 const router = useRouter()
 
 defineProps<{
